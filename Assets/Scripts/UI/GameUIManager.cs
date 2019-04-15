@@ -12,7 +12,7 @@ public class GameUIManager : MonoBehaviourPun {
 	public TextMeshProUGUI Rank;
 
 
-	private void Start()
+	private void Awake()
 	{
 		Instance = this;
 	}
@@ -72,10 +72,7 @@ public class GameUIManager : MonoBehaviourPun {
 			Rank.gameObject.SetActive(true);
 			Rank.text = rank;
 		}
-		if(PhotonNetwork.IsMasterClient)
-		{
-			GameManagerScript.Instance.SetupNextMatch();
-		}
+
 	}
 
 }

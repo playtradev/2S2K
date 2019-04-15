@@ -1138,6 +1138,7 @@ extern const uint32_t StringComparer_Equals_m1418565653_MetadataUsageId;
 extern const uint32_t StringComparer_GetHashCode_m2080455020_MetadataUsageId;
 extern const uint32_t StringComparer__cctor_m1626042071_MetadataUsageId;
 extern const uint32_t StringComparer_get_InvariantCultureIgnoreCase_m2404489191_MetadataUsageId;
+extern const uint32_t StringComparer_get_OrdinalIgnoreCase_m2680809380_MetadataUsageId;
 extern const uint32_t StringComparer_get_Ordinal_m2103862281_MetadataUsageId;
 extern const uint32_t String_CharCopyReverse_m692227313_MetadataUsageId;
 extern const uint32_t String_CharCopy_m2254797373_MetadataUsageId;
@@ -39051,6 +39052,21 @@ extern "C" IL2CPP_METHOD_ATTR StringComparer_t3301955079 * StringComparer_get_Or
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(StringComparer_t3301955079_il2cpp_TypeInfo_var);
 		StringComparer_t3301955079 * L_0 = ((StringComparer_t3301955079_StaticFields*)il2cpp_codegen_static_fields_for(StringComparer_t3301955079_il2cpp_TypeInfo_var))->get_ordinal_3();
+		return L_0;
+	}
+}
+// System.StringComparer System.StringComparer::get_OrdinalIgnoreCase()
+extern "C" IL2CPP_METHOD_ATTR StringComparer_t3301955079 * StringComparer_get_OrdinalIgnoreCase_m2680809380 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (StringComparer_get_OrdinalIgnoreCase_m2680809380_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(StringComparer_t3301955079_il2cpp_TypeInfo_var);
+		StringComparer_t3301955079 * L_0 = ((StringComparer_t3301955079_StaticFields*)il2cpp_codegen_static_fields_for(StringComparer_t3301955079_il2cpp_TypeInfo_var))->get_ordinalIgnoreCase_2();
 		return L_0;
 	}
 }

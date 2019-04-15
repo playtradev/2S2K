@@ -9,7 +9,7 @@ public class PUNManagerScript : MonoBehaviourPun {
 	public static PUNManagerScript Instance;
 	public Camera MainCam;
 
-	private void Start()
+	private void Awake()
 	{
 		Instance = this;
 	}
@@ -21,7 +21,7 @@ public class PUNManagerScript : MonoBehaviourPun {
         PlayerScript ps = go.GetComponent<PlayerScript>();
 		List<int> mats = new List<int>();
 		mats.Add(skinId);
-		ps.Skin = SkinManager.Instance.GetMaterials(mats);
+		ps.Skin = SkinManager.Instance.GetSkinMaterials(mats);
 		ps.Bullets = bullets;
 		ps.CurrentPlayer = PhotonNetwork.PlayerList.Where(r=> r.ActorNumber == actorNum).First();
 		if(PhotonNetwork.LocalPlayer.ActorNumber == actorNum)
@@ -69,5 +69,18 @@ public class PUNManagerScript : MonoBehaviourPun {
 
 		GameUIManager.Instance.WriteRank(rank);
     }
+    
+
+	[PunRPC]
+	public void RPC_SetupNextMatch()
+    {
+		if (PhotonNetwork.IsMasterClient)
+        {
+            GameManagerScript.Instance.SetupNextMatch();
+        }
+    }
+
+
+
 
 }

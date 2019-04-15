@@ -628,6 +628,8 @@ struct List_1_t537414295;
 struct List_1_t2585711361;
 // System.Collections.Generic.List`1<UnityEngine.Material>
 struct List_1_t1812449865;
+// System.Collections.Generic.List`1<UnityEngine.Sprite>
+struct List_1_t1752731834;
 // System.Collections.Generic.List`1<UnityEngine.Transform>
 struct List_1_t777473367;
 // System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/DropdownItem>
@@ -742,6 +744,8 @@ struct TextAlignmentOptionsU5BU5D_t3552942253;
 struct TextMeshProUGUI_t529313277;
 // TMPro.XML_TagAttribute[]
 struct XML_TagAttributeU5BU5D_t284240280;
+// UISkinManager
+struct UISkinManager_t1774305045;
 // UnityEngine.AsyncOperation
 struct AsyncOperation_t1445031843;
 // UnityEngine.Behaviour
@@ -1038,6 +1042,7 @@ extern RuntimeClass* U3CUpdateUIPingU3Ec__Iterator0_t146093723_il2cpp_TypeInfo_v
 extern RuntimeClass* U3CUpdateUIPingU3Ec__Iterator0_t3963445369_il2cpp_TypeInfo_var;
 extern RuntimeClass* U3CWaitForRespawnU3Ec__Iterator0_t3601258116_il2cpp_TypeInfo_var;
 extern RuntimeClass* U3CclearStatusU3Ec__Iterator0_t675715044_il2cpp_TypeInfo_var;
+extern RuntimeClass* UISkinManager_t1774305045_il2cpp_TypeInfo_var;
 extern RuntimeClass* UnityAction_1_t2432286830_il2cpp_TypeInfo_var;
 extern RuntimeClass* UnityAction_1_t3535781894_il2cpp_TypeInfo_var;
 extern RuntimeClass* UnityAction_1_t682124106_il2cpp_TypeInfo_var;
@@ -1305,6 +1310,7 @@ extern String_t* _stringLiteral582721811;
 extern String_t* _stringLiteral597151653;
 extern String_t* _stringLiteral62725266;
 extern String_t* _stringLiteral664189019;
+extern String_t* _stringLiteral704324358;
 extern String_t* _stringLiteral709948148;
 extern String_t* _stringLiteral714041873;
 extern String_t* _stringLiteral726797485;
@@ -1724,6 +1730,7 @@ extern const uint32_t FriendListView_ResetList_m3175078132_MetadataUsageId;
 extern const uint32_t FriendListView_SetFriendDetails_m1473729420_MetadataUsageId;
 extern const uint32_t FriendListView_UpdateUIPing_m548796240_MetadataUsageId;
 extern const uint32_t FriendListView__ctor_m4017412611_MetadataUsageId;
+extern const uint32_t GameManagerScript_Awake_m1822822285_MetadataUsageId;
 extern const uint32_t GameManagerScript_CharInstantiator_m998297478_MetadataUsageId;
 extern const uint32_t GameManagerScript_CreateRank_m2990503988_MetadataUsageId;
 extern const uint32_t GameManagerScript_EndMatch_m510723482_MetadataUsageId;
@@ -1731,7 +1738,6 @@ extern const uint32_t GameManagerScript_IShootTo_m1398049126_MetadataUsageId;
 extern const uint32_t GameManagerScript_SetShoot_m2917825039_MetadataUsageId;
 extern const uint32_t GameManagerScript_SetupNextMatch_m1535000493_MetadataUsageId;
 extern const uint32_t GameManagerScript_StartMatch_m3419779421_MetadataUsageId;
-extern const uint32_t GameManagerScript_Start_m515681549_MetadataUsageId;
 extern const uint32_t GameManagerScript_Update_m3148649340_MetadataUsageId;
 extern const uint32_t GameManagerScript_YouDie_m4152416511_MetadataUsageId;
 extern const uint32_t GameManagerScript__ctor_m1438311629_MetadataUsageId;
@@ -1742,9 +1748,9 @@ extern const uint32_t GameManager_OnPlayerEnteredRoom_m1858172244_MetadataUsageI
 extern const uint32_t GameManager_OnPlayerLeftRoom_m764036189_MetadataUsageId;
 extern const uint32_t GameManager_Start_m2973206423_MetadataUsageId;
 extern const uint32_t GameManager_Update_m3411939124_MetadataUsageId;
+extern const uint32_t GameUIManager_Awake_m3276374319_MetadataUsageId;
 extern const uint32_t GameUIManager_StartFirstMatch_m69718225_MetadataUsageId;
 extern const uint32_t GameUIManager_StartNextMatch_m3247546852_MetadataUsageId;
-extern const uint32_t GameUIManager_Start_m2761090165_MetadataUsageId;
 extern const uint32_t GameUIManager_WriteRank_m2812525369_MetadataUsageId;
 extern const uint32_t GameVersionField_OnDisable_m2091944800_MetadataUsageId;
 extern const uint32_t GameVersionField_OnEnable_m3779376772_MetadataUsageId;
@@ -1818,13 +1824,14 @@ extern const uint32_t OnSubmitEvent__ctor_m608928242_MetadataUsageId;
 extern const uint32_t OnSubmitEvent__ctor_m830629245_MetadataUsageId;
 extern const uint32_t OnSubmitEvent__ctor_m91786186_MetadataUsageId;
 extern const uint32_t OnlineDocButton__ctor_m2623245713_MetadataUsageId;
+extern const uint32_t PUNManagerScript_Awake_m3501269315_MetadataUsageId;
 extern const uint32_t PUNManagerScript_RPC_SetSkin_m3931148199_MetadataUsageId;
+extern const uint32_t PUNManagerScript_RPC_SetupNextMatch_m2834368917_MetadataUsageId;
 extern const uint32_t PUNManagerScript_RPC_Shoot_m1600719122_MetadataUsageId;
 extern const uint32_t PUNManagerScript_RPC_StartFirstMatchClient_m3037871755_MetadataUsageId;
 extern const uint32_t PUNManagerScript_RPC_StartNextMatchClient_m3231456874_MetadataUsageId;
 extern const uint32_t PUNManagerScript_RPC_WriteRank_m4035202956_MetadataUsageId;
 extern const uint32_t PUNManagerScript_RPC_YouDie_m3080495709_MetadataUsageId;
-extern const uint32_t PUNManagerScript_Start_m757199088_MetadataUsageId;
 extern const uint32_t PingProperty_Update_m1041346068_MetadataUsageId;
 extern const uint32_t PlayerDetailsController_AddProperty_m3438966288_MetadataUsageId;
 extern const uint32_t PlayerDetailsController_GetAllPlayerBuiltIntProperties_m3081424854_MetadataUsageId;
@@ -22632,38 +22639,93 @@ public:
 struct  SkinManager_t733803510  : public MonoBehaviour_t3962482529
 {
 public:
-	// System.Collections.Generic.List`1<UnityEngine.Material> SkinManager::ListOfSkin
-	List_1_t1812449865 * ___ListOfSkin_5;
+	// System.Collections.Generic.List`1<UnityEngine.Material> SkinManager::ListOfSkins
+	List_1_t1812449865 * ___ListOfSkins_5;
+	// System.Collections.Generic.List`1<UnityEngine.Transform> SkinManager::ListOfHats
+	List_1_t777473367 * ___ListOfHats_6;
+	// System.Collections.Generic.List`1<UnityEngine.Transform> SkinManager::ListOfWeapons
+	List_1_t777473367 * ___ListOfWeapons_7;
+	// System.Collections.Generic.List`1<UnityEngine.Sprite> SkinManager::ListOfHatsUI
+	List_1_t1752731834 * ___ListOfHatsUI_8;
+	// System.Collections.Generic.List`1<UnityEngine.Sprite> SkinManager::ListOfSkinsUI
+	List_1_t1752731834 * ___ListOfSkinsUI_9;
+	// System.Collections.Generic.List`1<UnityEngine.Sprite> SkinManager::ListOfWeaponsUI
+	List_1_t1752731834 * ___ListOfWeaponsUI_10;
 	// System.Collections.Generic.List`1<ScreenTouches> SkinManager::TouchOnScreen
-	List_1_t2921562352 * ___TouchOnScreen_6;
+	List_1_t2921562352 * ___TouchOnScreen_11;
 	// UnityEngine.Vector2 SkinManager::StartMousePosition
-	Vector2_t2156229523  ___StartMousePosition_7;
+	Vector2_t2156229523  ___StartMousePosition_12;
 
 public:
-	inline static int32_t get_offset_of_ListOfSkin_5() { return static_cast<int32_t>(offsetof(SkinManager_t733803510, ___ListOfSkin_5)); }
-	inline List_1_t1812449865 * get_ListOfSkin_5() const { return ___ListOfSkin_5; }
-	inline List_1_t1812449865 ** get_address_of_ListOfSkin_5() { return &___ListOfSkin_5; }
-	inline void set_ListOfSkin_5(List_1_t1812449865 * value)
+	inline static int32_t get_offset_of_ListOfSkins_5() { return static_cast<int32_t>(offsetof(SkinManager_t733803510, ___ListOfSkins_5)); }
+	inline List_1_t1812449865 * get_ListOfSkins_5() const { return ___ListOfSkins_5; }
+	inline List_1_t1812449865 ** get_address_of_ListOfSkins_5() { return &___ListOfSkins_5; }
+	inline void set_ListOfSkins_5(List_1_t1812449865 * value)
 	{
-		___ListOfSkin_5 = value;
-		Il2CppCodeGenWriteBarrier((&___ListOfSkin_5), value);
+		___ListOfSkins_5 = value;
+		Il2CppCodeGenWriteBarrier((&___ListOfSkins_5), value);
 	}
 
-	inline static int32_t get_offset_of_TouchOnScreen_6() { return static_cast<int32_t>(offsetof(SkinManager_t733803510, ___TouchOnScreen_6)); }
-	inline List_1_t2921562352 * get_TouchOnScreen_6() const { return ___TouchOnScreen_6; }
-	inline List_1_t2921562352 ** get_address_of_TouchOnScreen_6() { return &___TouchOnScreen_6; }
-	inline void set_TouchOnScreen_6(List_1_t2921562352 * value)
+	inline static int32_t get_offset_of_ListOfHats_6() { return static_cast<int32_t>(offsetof(SkinManager_t733803510, ___ListOfHats_6)); }
+	inline List_1_t777473367 * get_ListOfHats_6() const { return ___ListOfHats_6; }
+	inline List_1_t777473367 ** get_address_of_ListOfHats_6() { return &___ListOfHats_6; }
+	inline void set_ListOfHats_6(List_1_t777473367 * value)
 	{
-		___TouchOnScreen_6 = value;
-		Il2CppCodeGenWriteBarrier((&___TouchOnScreen_6), value);
+		___ListOfHats_6 = value;
+		Il2CppCodeGenWriteBarrier((&___ListOfHats_6), value);
 	}
 
-	inline static int32_t get_offset_of_StartMousePosition_7() { return static_cast<int32_t>(offsetof(SkinManager_t733803510, ___StartMousePosition_7)); }
-	inline Vector2_t2156229523  get_StartMousePosition_7() const { return ___StartMousePosition_7; }
-	inline Vector2_t2156229523 * get_address_of_StartMousePosition_7() { return &___StartMousePosition_7; }
-	inline void set_StartMousePosition_7(Vector2_t2156229523  value)
+	inline static int32_t get_offset_of_ListOfWeapons_7() { return static_cast<int32_t>(offsetof(SkinManager_t733803510, ___ListOfWeapons_7)); }
+	inline List_1_t777473367 * get_ListOfWeapons_7() const { return ___ListOfWeapons_7; }
+	inline List_1_t777473367 ** get_address_of_ListOfWeapons_7() { return &___ListOfWeapons_7; }
+	inline void set_ListOfWeapons_7(List_1_t777473367 * value)
 	{
-		___StartMousePosition_7 = value;
+		___ListOfWeapons_7 = value;
+		Il2CppCodeGenWriteBarrier((&___ListOfWeapons_7), value);
+	}
+
+	inline static int32_t get_offset_of_ListOfHatsUI_8() { return static_cast<int32_t>(offsetof(SkinManager_t733803510, ___ListOfHatsUI_8)); }
+	inline List_1_t1752731834 * get_ListOfHatsUI_8() const { return ___ListOfHatsUI_8; }
+	inline List_1_t1752731834 ** get_address_of_ListOfHatsUI_8() { return &___ListOfHatsUI_8; }
+	inline void set_ListOfHatsUI_8(List_1_t1752731834 * value)
+	{
+		___ListOfHatsUI_8 = value;
+		Il2CppCodeGenWriteBarrier((&___ListOfHatsUI_8), value);
+	}
+
+	inline static int32_t get_offset_of_ListOfSkinsUI_9() { return static_cast<int32_t>(offsetof(SkinManager_t733803510, ___ListOfSkinsUI_9)); }
+	inline List_1_t1752731834 * get_ListOfSkinsUI_9() const { return ___ListOfSkinsUI_9; }
+	inline List_1_t1752731834 ** get_address_of_ListOfSkinsUI_9() { return &___ListOfSkinsUI_9; }
+	inline void set_ListOfSkinsUI_9(List_1_t1752731834 * value)
+	{
+		___ListOfSkinsUI_9 = value;
+		Il2CppCodeGenWriteBarrier((&___ListOfSkinsUI_9), value);
+	}
+
+	inline static int32_t get_offset_of_ListOfWeaponsUI_10() { return static_cast<int32_t>(offsetof(SkinManager_t733803510, ___ListOfWeaponsUI_10)); }
+	inline List_1_t1752731834 * get_ListOfWeaponsUI_10() const { return ___ListOfWeaponsUI_10; }
+	inline List_1_t1752731834 ** get_address_of_ListOfWeaponsUI_10() { return &___ListOfWeaponsUI_10; }
+	inline void set_ListOfWeaponsUI_10(List_1_t1752731834 * value)
+	{
+		___ListOfWeaponsUI_10 = value;
+		Il2CppCodeGenWriteBarrier((&___ListOfWeaponsUI_10), value);
+	}
+
+	inline static int32_t get_offset_of_TouchOnScreen_11() { return static_cast<int32_t>(offsetof(SkinManager_t733803510, ___TouchOnScreen_11)); }
+	inline List_1_t2921562352 * get_TouchOnScreen_11() const { return ___TouchOnScreen_11; }
+	inline List_1_t2921562352 ** get_address_of_TouchOnScreen_11() { return &___TouchOnScreen_11; }
+	inline void set_TouchOnScreen_11(List_1_t2921562352 * value)
+	{
+		___TouchOnScreen_11 = value;
+		Il2CppCodeGenWriteBarrier((&___TouchOnScreen_11), value);
+	}
+
+	inline static int32_t get_offset_of_StartMousePosition_12() { return static_cast<int32_t>(offsetof(SkinManager_t733803510, ___StartMousePosition_12)); }
+	inline Vector2_t2156229523  get_StartMousePosition_12() const { return ___StartMousePosition_12; }
+	inline Vector2_t2156229523 * get_address_of_StartMousePosition_12() { return &___StartMousePosition_12; }
+	inline void set_StartMousePosition_12(Vector2_t2156229523  value)
+	{
+		___StartMousePosition_12 = value;
 	}
 };
 
@@ -22673,7 +22735,7 @@ public:
 	// SkinManager SkinManager::Instance
 	SkinManager_t733803510 * ___Instance_4;
 	// System.Func`2<UnityEngine.Touch,System.Boolean> SkinManager::<>f__am$cache0
-	Func_2_t2764894207 * ___U3CU3Ef__amU24cache0_8;
+	Func_2_t2764894207 * ___U3CU3Ef__amU24cache0_13;
 
 public:
 	inline static int32_t get_offset_of_Instance_4() { return static_cast<int32_t>(offsetof(SkinManager_t733803510_StaticFields, ___Instance_4)); }
@@ -22685,13 +22747,13 @@ public:
 		Il2CppCodeGenWriteBarrier((&___Instance_4), value);
 	}
 
-	inline static int32_t get_offset_of_U3CU3Ef__amU24cache0_8() { return static_cast<int32_t>(offsetof(SkinManager_t733803510_StaticFields, ___U3CU3Ef__amU24cache0_8)); }
-	inline Func_2_t2764894207 * get_U3CU3Ef__amU24cache0_8() const { return ___U3CU3Ef__amU24cache0_8; }
-	inline Func_2_t2764894207 ** get_address_of_U3CU3Ef__amU24cache0_8() { return &___U3CU3Ef__amU24cache0_8; }
-	inline void set_U3CU3Ef__amU24cache0_8(Func_2_t2764894207 * value)
+	inline static int32_t get_offset_of_U3CU3Ef__amU24cache0_13() { return static_cast<int32_t>(offsetof(SkinManager_t733803510_StaticFields, ___U3CU3Ef__amU24cache0_13)); }
+	inline Func_2_t2764894207 * get_U3CU3Ef__amU24cache0_13() const { return ___U3CU3Ef__amU24cache0_13; }
+	inline Func_2_t2764894207 ** get_address_of_U3CU3Ef__amU24cache0_13() { return &___U3CU3Ef__amU24cache0_13; }
+	inline void set_U3CU3Ef__amU24cache0_13(Func_2_t2764894207 * value)
 	{
-		___U3CU3Ef__amU24cache0_8 = value;
-		Il2CppCodeGenWriteBarrier((&___U3CU3Ef__amU24cache0_8), value);
+		___U3CU3Ef__amU24cache0_13 = value;
+		Il2CppCodeGenWriteBarrier((&___U3CU3Ef__amU24cache0_13), value);
 	}
 };
 
@@ -22699,6 +22761,108 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // SKINMANAGER_T733803510_H
+#ifndef UISKINMANAGER_T1774305045_H
+#define UISKINMANAGER_T1774305045_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UISkinManager
+struct  UISkinManager_t1774305045  : public MonoBehaviour_t3962482529
+{
+public:
+	// UnityEngine.UI.Image UISkinManager::HatLeft
+	Image_t2670269651 * ___HatLeft_5;
+	// UnityEngine.UI.Image UISkinManager::HatRight
+	Image_t2670269651 * ___HatRight_6;
+	// UnityEngine.UI.Image UISkinManager::SkinLeft
+	Image_t2670269651 * ___SkinLeft_7;
+	// UnityEngine.UI.Image UISkinManager::SkinRight
+	Image_t2670269651 * ___SkinRight_8;
+	// UnityEngine.UI.Image UISkinManager::WeaponLeft
+	Image_t2670269651 * ___WeaponLeft_9;
+	// UnityEngine.UI.Image UISkinManager::WeaponRight
+	Image_t2670269651 * ___WeaponRight_10;
+
+public:
+	inline static int32_t get_offset_of_HatLeft_5() { return static_cast<int32_t>(offsetof(UISkinManager_t1774305045, ___HatLeft_5)); }
+	inline Image_t2670269651 * get_HatLeft_5() const { return ___HatLeft_5; }
+	inline Image_t2670269651 ** get_address_of_HatLeft_5() { return &___HatLeft_5; }
+	inline void set_HatLeft_5(Image_t2670269651 * value)
+	{
+		___HatLeft_5 = value;
+		Il2CppCodeGenWriteBarrier((&___HatLeft_5), value);
+	}
+
+	inline static int32_t get_offset_of_HatRight_6() { return static_cast<int32_t>(offsetof(UISkinManager_t1774305045, ___HatRight_6)); }
+	inline Image_t2670269651 * get_HatRight_6() const { return ___HatRight_6; }
+	inline Image_t2670269651 ** get_address_of_HatRight_6() { return &___HatRight_6; }
+	inline void set_HatRight_6(Image_t2670269651 * value)
+	{
+		___HatRight_6 = value;
+		Il2CppCodeGenWriteBarrier((&___HatRight_6), value);
+	}
+
+	inline static int32_t get_offset_of_SkinLeft_7() { return static_cast<int32_t>(offsetof(UISkinManager_t1774305045, ___SkinLeft_7)); }
+	inline Image_t2670269651 * get_SkinLeft_7() const { return ___SkinLeft_7; }
+	inline Image_t2670269651 ** get_address_of_SkinLeft_7() { return &___SkinLeft_7; }
+	inline void set_SkinLeft_7(Image_t2670269651 * value)
+	{
+		___SkinLeft_7 = value;
+		Il2CppCodeGenWriteBarrier((&___SkinLeft_7), value);
+	}
+
+	inline static int32_t get_offset_of_SkinRight_8() { return static_cast<int32_t>(offsetof(UISkinManager_t1774305045, ___SkinRight_8)); }
+	inline Image_t2670269651 * get_SkinRight_8() const { return ___SkinRight_8; }
+	inline Image_t2670269651 ** get_address_of_SkinRight_8() { return &___SkinRight_8; }
+	inline void set_SkinRight_8(Image_t2670269651 * value)
+	{
+		___SkinRight_8 = value;
+		Il2CppCodeGenWriteBarrier((&___SkinRight_8), value);
+	}
+
+	inline static int32_t get_offset_of_WeaponLeft_9() { return static_cast<int32_t>(offsetof(UISkinManager_t1774305045, ___WeaponLeft_9)); }
+	inline Image_t2670269651 * get_WeaponLeft_9() const { return ___WeaponLeft_9; }
+	inline Image_t2670269651 ** get_address_of_WeaponLeft_9() { return &___WeaponLeft_9; }
+	inline void set_WeaponLeft_9(Image_t2670269651 * value)
+	{
+		___WeaponLeft_9 = value;
+		Il2CppCodeGenWriteBarrier((&___WeaponLeft_9), value);
+	}
+
+	inline static int32_t get_offset_of_WeaponRight_10() { return static_cast<int32_t>(offsetof(UISkinManager_t1774305045, ___WeaponRight_10)); }
+	inline Image_t2670269651 * get_WeaponRight_10() const { return ___WeaponRight_10; }
+	inline Image_t2670269651 ** get_address_of_WeaponRight_10() { return &___WeaponRight_10; }
+	inline void set_WeaponRight_10(Image_t2670269651 * value)
+	{
+		___WeaponRight_10 = value;
+		Il2CppCodeGenWriteBarrier((&___WeaponRight_10), value);
+	}
+};
+
+struct UISkinManager_t1774305045_StaticFields
+{
+public:
+	// UISkinManager UISkinManager::Instance
+	UISkinManager_t1774305045 * ___Instance_4;
+
+public:
+	inline static int32_t get_offset_of_Instance_4() { return static_cast<int32_t>(offsetof(UISkinManager_t1774305045_StaticFields, ___Instance_4)); }
+	inline UISkinManager_t1774305045 * get_Instance_4() const { return ___Instance_4; }
+	inline UISkinManager_t1774305045 ** get_address_of_Instance_4() { return &___Instance_4; }
+	inline void set_Instance_4(UISkinManager_t1774305045 * value)
+	{
+		___Instance_4 = value;
+		Il2CppCodeGenWriteBarrier((&___Instance_4), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // UISKINMANAGER_T1774305045_H
 #ifndef UIBEHAVIOUR_T3495933518_H
 #define UIBEHAVIOUR_T3495933518_H
 #ifdef __clang__
@@ -22731,80 +22895,90 @@ public:
 struct  GameManagerScript_t1044651259  : public MonoBehaviourPun_t1682334777
 {
 public:
+	// System.Int32 GameManagerScript::MatchNumber
+	int32_t ___MatchNumber_6;
 	// GameManagerStatusType GameManagerScript::GMStatus
-	int32_t ___GMStatus_6;
+	int32_t ___GMStatus_7;
 	// System.Boolean GameManagerScript::amIPlaying
-	bool ___amIPlaying_7;
+	bool ___amIPlaying_8;
 	// System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.GameObject> GameManagerScript::ListOfPayersAndChars
-	Dictionary_2_t2349950 * ___ListOfPayersAndChars_8;
+	Dictionary_2_t2349950 * ___ListOfPayersAndChars_9;
 	// System.Collections.Generic.List`1<UnityEngine.Transform> GameManagerScript::CharPositions
-	List_1_t777473367 * ___CharPositions_9;
+	List_1_t777473367 * ___CharPositions_10;
 	// System.Collections.Generic.List`1<UnityEngine.Transform> GameManagerScript::CameraPositions
-	List_1_t777473367 * ___CameraPositions_10;
+	List_1_t777473367 * ___CameraPositions_11;
 	// UnityEngine.GameObject GameManagerScript::Character
-	GameObject_t1113636619 * ___Character_11;
+	GameObject_t1113636619 * ___Character_12;
 	// System.Boolean GameManagerScript::areCharInstantiated
-	bool ___areCharInstantiated_12;
+	bool ___areCharInstantiated_13;
 
 public:
-	inline static int32_t get_offset_of_GMStatus_6() { return static_cast<int32_t>(offsetof(GameManagerScript_t1044651259, ___GMStatus_6)); }
-	inline int32_t get_GMStatus_6() const { return ___GMStatus_6; }
-	inline int32_t* get_address_of_GMStatus_6() { return &___GMStatus_6; }
-	inline void set_GMStatus_6(int32_t value)
+	inline static int32_t get_offset_of_MatchNumber_6() { return static_cast<int32_t>(offsetof(GameManagerScript_t1044651259, ___MatchNumber_6)); }
+	inline int32_t get_MatchNumber_6() const { return ___MatchNumber_6; }
+	inline int32_t* get_address_of_MatchNumber_6() { return &___MatchNumber_6; }
+	inline void set_MatchNumber_6(int32_t value)
 	{
-		___GMStatus_6 = value;
+		___MatchNumber_6 = value;
 	}
 
-	inline static int32_t get_offset_of_amIPlaying_7() { return static_cast<int32_t>(offsetof(GameManagerScript_t1044651259, ___amIPlaying_7)); }
-	inline bool get_amIPlaying_7() const { return ___amIPlaying_7; }
-	inline bool* get_address_of_amIPlaying_7() { return &___amIPlaying_7; }
-	inline void set_amIPlaying_7(bool value)
+	inline static int32_t get_offset_of_GMStatus_7() { return static_cast<int32_t>(offsetof(GameManagerScript_t1044651259, ___GMStatus_7)); }
+	inline int32_t get_GMStatus_7() const { return ___GMStatus_7; }
+	inline int32_t* get_address_of_GMStatus_7() { return &___GMStatus_7; }
+	inline void set_GMStatus_7(int32_t value)
 	{
-		___amIPlaying_7 = value;
+		___GMStatus_7 = value;
 	}
 
-	inline static int32_t get_offset_of_ListOfPayersAndChars_8() { return static_cast<int32_t>(offsetof(GameManagerScript_t1044651259, ___ListOfPayersAndChars_8)); }
-	inline Dictionary_2_t2349950 * get_ListOfPayersAndChars_8() const { return ___ListOfPayersAndChars_8; }
-	inline Dictionary_2_t2349950 ** get_address_of_ListOfPayersAndChars_8() { return &___ListOfPayersAndChars_8; }
-	inline void set_ListOfPayersAndChars_8(Dictionary_2_t2349950 * value)
+	inline static int32_t get_offset_of_amIPlaying_8() { return static_cast<int32_t>(offsetof(GameManagerScript_t1044651259, ___amIPlaying_8)); }
+	inline bool get_amIPlaying_8() const { return ___amIPlaying_8; }
+	inline bool* get_address_of_amIPlaying_8() { return &___amIPlaying_8; }
+	inline void set_amIPlaying_8(bool value)
 	{
-		___ListOfPayersAndChars_8 = value;
-		Il2CppCodeGenWriteBarrier((&___ListOfPayersAndChars_8), value);
+		___amIPlaying_8 = value;
 	}
 
-	inline static int32_t get_offset_of_CharPositions_9() { return static_cast<int32_t>(offsetof(GameManagerScript_t1044651259, ___CharPositions_9)); }
-	inline List_1_t777473367 * get_CharPositions_9() const { return ___CharPositions_9; }
-	inline List_1_t777473367 ** get_address_of_CharPositions_9() { return &___CharPositions_9; }
-	inline void set_CharPositions_9(List_1_t777473367 * value)
+	inline static int32_t get_offset_of_ListOfPayersAndChars_9() { return static_cast<int32_t>(offsetof(GameManagerScript_t1044651259, ___ListOfPayersAndChars_9)); }
+	inline Dictionary_2_t2349950 * get_ListOfPayersAndChars_9() const { return ___ListOfPayersAndChars_9; }
+	inline Dictionary_2_t2349950 ** get_address_of_ListOfPayersAndChars_9() { return &___ListOfPayersAndChars_9; }
+	inline void set_ListOfPayersAndChars_9(Dictionary_2_t2349950 * value)
 	{
-		___CharPositions_9 = value;
-		Il2CppCodeGenWriteBarrier((&___CharPositions_9), value);
+		___ListOfPayersAndChars_9 = value;
+		Il2CppCodeGenWriteBarrier((&___ListOfPayersAndChars_9), value);
 	}
 
-	inline static int32_t get_offset_of_CameraPositions_10() { return static_cast<int32_t>(offsetof(GameManagerScript_t1044651259, ___CameraPositions_10)); }
-	inline List_1_t777473367 * get_CameraPositions_10() const { return ___CameraPositions_10; }
-	inline List_1_t777473367 ** get_address_of_CameraPositions_10() { return &___CameraPositions_10; }
-	inline void set_CameraPositions_10(List_1_t777473367 * value)
+	inline static int32_t get_offset_of_CharPositions_10() { return static_cast<int32_t>(offsetof(GameManagerScript_t1044651259, ___CharPositions_10)); }
+	inline List_1_t777473367 * get_CharPositions_10() const { return ___CharPositions_10; }
+	inline List_1_t777473367 ** get_address_of_CharPositions_10() { return &___CharPositions_10; }
+	inline void set_CharPositions_10(List_1_t777473367 * value)
 	{
-		___CameraPositions_10 = value;
-		Il2CppCodeGenWriteBarrier((&___CameraPositions_10), value);
+		___CharPositions_10 = value;
+		Il2CppCodeGenWriteBarrier((&___CharPositions_10), value);
 	}
 
-	inline static int32_t get_offset_of_Character_11() { return static_cast<int32_t>(offsetof(GameManagerScript_t1044651259, ___Character_11)); }
-	inline GameObject_t1113636619 * get_Character_11() const { return ___Character_11; }
-	inline GameObject_t1113636619 ** get_address_of_Character_11() { return &___Character_11; }
-	inline void set_Character_11(GameObject_t1113636619 * value)
+	inline static int32_t get_offset_of_CameraPositions_11() { return static_cast<int32_t>(offsetof(GameManagerScript_t1044651259, ___CameraPositions_11)); }
+	inline List_1_t777473367 * get_CameraPositions_11() const { return ___CameraPositions_11; }
+	inline List_1_t777473367 ** get_address_of_CameraPositions_11() { return &___CameraPositions_11; }
+	inline void set_CameraPositions_11(List_1_t777473367 * value)
 	{
-		___Character_11 = value;
-		Il2CppCodeGenWriteBarrier((&___Character_11), value);
+		___CameraPositions_11 = value;
+		Il2CppCodeGenWriteBarrier((&___CameraPositions_11), value);
 	}
 
-	inline static int32_t get_offset_of_areCharInstantiated_12() { return static_cast<int32_t>(offsetof(GameManagerScript_t1044651259, ___areCharInstantiated_12)); }
-	inline bool get_areCharInstantiated_12() const { return ___areCharInstantiated_12; }
-	inline bool* get_address_of_areCharInstantiated_12() { return &___areCharInstantiated_12; }
-	inline void set_areCharInstantiated_12(bool value)
+	inline static int32_t get_offset_of_Character_12() { return static_cast<int32_t>(offsetof(GameManagerScript_t1044651259, ___Character_12)); }
+	inline GameObject_t1113636619 * get_Character_12() const { return ___Character_12; }
+	inline GameObject_t1113636619 ** get_address_of_Character_12() { return &___Character_12; }
+	inline void set_Character_12(GameObject_t1113636619 * value)
 	{
-		___areCharInstantiated_12 = value;
+		___Character_12 = value;
+		Il2CppCodeGenWriteBarrier((&___Character_12), value);
+	}
+
+	inline static int32_t get_offset_of_areCharInstantiated_13() { return static_cast<int32_t>(offsetof(GameManagerScript_t1044651259, ___areCharInstantiated_13)); }
+	inline bool get_areCharInstantiated_13() const { return ___areCharInstantiated_13; }
+	inline bool* get_address_of_areCharInstantiated_13() { return &___areCharInstantiated_13; }
+	inline void set_areCharInstantiated_13(bool value)
+	{
+		___areCharInstantiated_13 = value;
 	}
 };
 
@@ -22814,7 +22988,7 @@ public:
 	// GameManagerScript GameManagerScript::Instance
 	GameManagerScript_t1044651259 * ___Instance_5;
 	// System.Func`2<PlayerClass,System.Int32> GameManagerScript::<>f__am$cache0
-	Func_2_t3573941931 * ___U3CU3Ef__amU24cache0_13;
+	Func_2_t3573941931 * ___U3CU3Ef__amU24cache0_14;
 
 public:
 	inline static int32_t get_offset_of_Instance_5() { return static_cast<int32_t>(offsetof(GameManagerScript_t1044651259_StaticFields, ___Instance_5)); }
@@ -22826,13 +23000,13 @@ public:
 		Il2CppCodeGenWriteBarrier((&___Instance_5), value);
 	}
 
-	inline static int32_t get_offset_of_U3CU3Ef__amU24cache0_13() { return static_cast<int32_t>(offsetof(GameManagerScript_t1044651259_StaticFields, ___U3CU3Ef__amU24cache0_13)); }
-	inline Func_2_t3573941931 * get_U3CU3Ef__amU24cache0_13() const { return ___U3CU3Ef__amU24cache0_13; }
-	inline Func_2_t3573941931 ** get_address_of_U3CU3Ef__amU24cache0_13() { return &___U3CU3Ef__amU24cache0_13; }
-	inline void set_U3CU3Ef__amU24cache0_13(Func_2_t3573941931 * value)
+	inline static int32_t get_offset_of_U3CU3Ef__amU24cache0_14() { return static_cast<int32_t>(offsetof(GameManagerScript_t1044651259_StaticFields, ___U3CU3Ef__amU24cache0_14)); }
+	inline Func_2_t3573941931 * get_U3CU3Ef__amU24cache0_14() const { return ___U3CU3Ef__amU24cache0_14; }
+	inline Func_2_t3573941931 ** get_address_of_U3CU3Ef__amU24cache0_14() { return &___U3CU3Ef__amU24cache0_14; }
+	inline void set_U3CU3Ef__amU24cache0_14(Func_2_t3573941931 * value)
 	{
-		___U3CU3Ef__amU24cache0_13 = value;
-		Il2CppCodeGenWriteBarrier((&___U3CU3Ef__amU24cache0_13), value);
+		___U3CU3Ef__amU24cache0_14 = value;
+		Il2CppCodeGenWriteBarrier((&___U3CU3Ef__amU24cache0_14), value);
 	}
 };
 
@@ -24619,10 +24793,14 @@ public:
 	uint8_t ___maxPlayersPerRoom_5;
 	// System.Int32 Launcher::SkinId
 	int32_t ___SkinId_7;
+	// System.Int32 Launcher::HatId
+	int32_t ___HatId_8;
+	// System.Int32 Launcher::WeaponId
+	int32_t ___WeaponId_9;
 	// System.Boolean Launcher::isConnecting
-	bool ___isConnecting_8;
+	bool ___isConnecting_10;
 	// System.String Launcher::gameVersion
-	String_t* ___gameVersion_9;
+	String_t* ___gameVersion_11;
 
 public:
 	inline static int32_t get_offset_of_maxPlayersPerRoom_5() { return static_cast<int32_t>(offsetof(Launcher_t75719789, ___maxPlayersPerRoom_5)); }
@@ -24641,21 +24819,37 @@ public:
 		___SkinId_7 = value;
 	}
 
-	inline static int32_t get_offset_of_isConnecting_8() { return static_cast<int32_t>(offsetof(Launcher_t75719789, ___isConnecting_8)); }
-	inline bool get_isConnecting_8() const { return ___isConnecting_8; }
-	inline bool* get_address_of_isConnecting_8() { return &___isConnecting_8; }
-	inline void set_isConnecting_8(bool value)
+	inline static int32_t get_offset_of_HatId_8() { return static_cast<int32_t>(offsetof(Launcher_t75719789, ___HatId_8)); }
+	inline int32_t get_HatId_8() const { return ___HatId_8; }
+	inline int32_t* get_address_of_HatId_8() { return &___HatId_8; }
+	inline void set_HatId_8(int32_t value)
 	{
-		___isConnecting_8 = value;
+		___HatId_8 = value;
 	}
 
-	inline static int32_t get_offset_of_gameVersion_9() { return static_cast<int32_t>(offsetof(Launcher_t75719789, ___gameVersion_9)); }
-	inline String_t* get_gameVersion_9() const { return ___gameVersion_9; }
-	inline String_t** get_address_of_gameVersion_9() { return &___gameVersion_9; }
-	inline void set_gameVersion_9(String_t* value)
+	inline static int32_t get_offset_of_WeaponId_9() { return static_cast<int32_t>(offsetof(Launcher_t75719789, ___WeaponId_9)); }
+	inline int32_t get_WeaponId_9() const { return ___WeaponId_9; }
+	inline int32_t* get_address_of_WeaponId_9() { return &___WeaponId_9; }
+	inline void set_WeaponId_9(int32_t value)
 	{
-		___gameVersion_9 = value;
-		Il2CppCodeGenWriteBarrier((&___gameVersion_9), value);
+		___WeaponId_9 = value;
+	}
+
+	inline static int32_t get_offset_of_isConnecting_10() { return static_cast<int32_t>(offsetof(Launcher_t75719789, ___isConnecting_10)); }
+	inline bool get_isConnecting_10() const { return ___isConnecting_10; }
+	inline bool* get_address_of_isConnecting_10() { return &___isConnecting_10; }
+	inline void set_isConnecting_10(bool value)
+	{
+		___isConnecting_10 = value;
+	}
+
+	inline static int32_t get_offset_of_gameVersion_11() { return static_cast<int32_t>(offsetof(Launcher_t75719789, ___gameVersion_11)); }
+	inline String_t* get_gameVersion_11() const { return ___gameVersion_11; }
+	inline String_t** get_address_of_gameVersion_11() { return &___gameVersion_11; }
+	inline void set_gameVersion_11(String_t* value)
+	{
+		___gameVersion_11 = value;
+		Il2CppCodeGenWriteBarrier((&___gameVersion_11), value);
 	}
 };
 
@@ -31222,10 +31416,6 @@ extern "C" IL2CPP_METHOD_ATTR void U3CStartFirstMatchU3Ec__Iterator0__ctor_m2933
 extern "C" IL2CPP_METHOD_ATTR void U3CStartNextMatchU3Ec__Iterator1__ctor_m2025596990 (U3CStartNextMatchU3Ec__Iterator1_t547056287 * __this, const RuntimeMethod* method);
 // System.Void TMPro.TMP_Text::set_text(System.String)
 extern "C" IL2CPP_METHOD_ATTR void TMP_Text_set_text_m1216996582 (TMP_Text_t2599618874 * __this, String_t* p0, const RuntimeMethod* method);
-// System.Boolean Photon.Pun.PhotonNetwork::get_IsMasterClient()
-extern "C" IL2CPP_METHOD_ATTR bool PhotonNetwork_get_IsMasterClient_m492574719 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method);
-// System.Void GameManagerScript::SetupNextMatch()
-extern "C" IL2CPP_METHOD_ATTR void GameManagerScript_SetupNextMatch_m1535000493 (GameManagerScript_t1044651259 * __this, const RuntimeMethod* method);
 // System.String System.Int32::ToString()
 extern "C" IL2CPP_METHOD_ATTR String_t* Int32_ToString_m141394615 (int32_t* __this, const RuntimeMethod* method);
 // System.Void UnityEngine.WaitForSecondsRealtime::.ctor(System.Single)
@@ -31240,6 +31430,12 @@ extern "C" IL2CPP_METHOD_ATTR bool GameObject_get_activeInHierarchy_m2006396688 
 extern "C" IL2CPP_METHOD_ATTR void MonoBehaviourPunCallbacks__ctor_m817142383 (MonoBehaviourPunCallbacks_t1810614660 * __this, const RuntimeMethod* method);
 // System.Void Photon.Pun.PhotonNetwork::set_AutomaticallySyncScene(System.Boolean)
 extern "C" IL2CPP_METHOD_ATTR void PhotonNetwork_set_AutomaticallySyncScene_m2359349107 (RuntimeObject * __this /* static, unused */, bool p0, const RuntimeMethod* method);
+// System.Void UISkinManager::SetColorToHat(System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void UISkinManager_SetColorToHat_m737229946 (UISkinManager_t1774305045 * __this, int32_t ___HatiD0, const RuntimeMethod* method);
+// System.Void UISkinManager::SetColorToSkin(System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void UISkinManager_SetColorToSkin_m2921701468 (UISkinManager_t1774305045 * __this, int32_t ___SkiniD0, const RuntimeMethod* method);
+// System.Void UISkinManager::SetColorToWeapon(System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void UISkinManager_SetColorToWeapon_m2558258648 (UISkinManager_t1774305045 * __this, int32_t ___WeaponiD0, const RuntimeMethod* method);
 // System.Boolean Photon.Pun.PhotonNetwork::get_IsConnected()
 extern "C" IL2CPP_METHOD_ATTR bool PhotonNetwork_get_IsConnected_m925803950 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method);
 // System.Boolean Photon.Pun.PhotonNetwork::JoinRandomRoom()
@@ -31256,6 +31452,8 @@ extern "C" IL2CPP_METHOD_ATTR bool PhotonNetwork_CreateRoom_m2738072803 (Runtime
 extern "C" IL2CPP_METHOD_ATTR Player_t2879569589 * PhotonNetwork_get_LocalPlayer_m1925676130 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method);
 // System.Void Launcher/<RPC_Connected>c__AnonStorey0::.ctor()
 extern "C" IL2CPP_METHOD_ATTR void U3CRPC_ConnectedU3Ec__AnonStorey0__ctor_m1458567913 (U3CRPC_ConnectedU3Ec__AnonStorey0_t1057169690 * __this, const RuntimeMethod* method);
+// System.Boolean Photon.Pun.PhotonNetwork::get_IsMasterClient()
+extern "C" IL2CPP_METHOD_ATTR bool PhotonNetwork_get_IsMasterClient_m492574719 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.List`1<System.Int32>::.ctor()
 inline void List_1__ctor_m2631905213 (List_1_t128053199 * __this, const RuntimeMethod* method)
 {
@@ -31283,8 +31481,8 @@ inline Player_t2879569589 * Enumerable_First_TisPlayer_t2879569589_m2176631992 (
 {
 	return ((  Player_t2879569589 * (*) (RuntimeObject * /* static, unused */, RuntimeObject*, const RuntimeMethod*))Enumerable_First_TisRuntimeObject_m2399704171_gshared)(__this /* static, unused */, p0, method);
 }
-// System.Collections.Generic.List`1<UnityEngine.Material> SkinManager::GetMaterials(System.Collections.Generic.List`1<System.Int32>)
-extern "C" IL2CPP_METHOD_ATTR List_1_t1812449865 * SkinManager_GetMaterials_m678546389 (SkinManager_t733803510 * __this, List_1_t128053199 * ___iDs0, const RuntimeMethod* method);
+// System.Collections.Generic.List`1<UnityEngine.Material> SkinManager::GetSkinMaterials(System.Collections.Generic.List`1<System.Int32>)
+extern "C" IL2CPP_METHOD_ATTR List_1_t1812449865 * SkinManager_GetSkinMaterials_m3167030053 (SkinManager_t733803510 * __this, List_1_t128053199 * ___iDs0, const RuntimeMethod* method);
 // System.Void PlayerClass::.ctor(Photon.Realtime.Player,System.Collections.Generic.List`1<UnityEngine.Material>,System.Int32,System.Int32,System.Int32,System.Int32)
 extern "C" IL2CPP_METHOD_ATTR void PlayerClass__ctor_m1855797290 (PlayerClass_t2514349620 * __this, Player_t2879569589 * ___cp0, List_1_t1812449865 * ___skin1, int32_t ___pos2, int32_t ___skinID3, int32_t ___hp4, int32_t ___bullets5, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.List`1<PlayerClass>::Add(!0)
@@ -31322,6 +31520,8 @@ extern "C" IL2CPP_METHOD_ATTR void GameManagerScript_SetShoot_m2917825039 (GameM
 extern "C" IL2CPP_METHOD_ATTR void GameManagerScript_YouDie_m4152416511 (GameManagerScript_t1044651259 * __this, int32_t ___actorNum0, const RuntimeMethod* method);
 // System.Void GameUIManager::WriteRank(System.String)
 extern "C" IL2CPP_METHOD_ATTR void GameUIManager_WriteRank_m2812525369 (GameUIManager_t2322768 * __this, String_t* ___rank0, const RuntimeMethod* method);
+// System.Void GameManagerScript::SetupNextMatch()
+extern "C" IL2CPP_METHOD_ATTR void GameManagerScript_SetupNextMatch_m1535000493 (GameManagerScript_t1044651259 * __this, const RuntimeMethod* method);
 // !!0 UnityEngine.Object::FindObjectOfType<UnityEngine.EventSystems.EventSystem>()
 inline EventSystem_t1003666588 * Object_FindObjectOfType_TisEventSystem_t1003666588_m1717287152 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
 {
@@ -35343,27 +35543,27 @@ extern "C" IL2CPP_METHOD_ATTR void GameManagerScript__ctor_m1438311629 (GameMana
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		__this->set_amIPlaying_7((bool)1);
+		__this->set_amIPlaying_8((bool)1);
 		Dictionary_2_t2349950 * L_0 = (Dictionary_2_t2349950 *)il2cpp_codegen_object_new(Dictionary_2_t2349950_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m1313944780(L_0, /*hidden argument*/Dictionary_2__ctor_m1313944780_RuntimeMethod_var);
-		__this->set_ListOfPayersAndChars_8(L_0);
+		__this->set_ListOfPayersAndChars_9(L_0);
 		List_1_t777473367 * L_1 = (List_1_t777473367 *)il2cpp_codegen_object_new(List_1_t777473367_il2cpp_TypeInfo_var);
 		List_1__ctor_m2885667311(L_1, /*hidden argument*/List_1__ctor_m2885667311_RuntimeMethod_var);
-		__this->set_CharPositions_9(L_1);
+		__this->set_CharPositions_10(L_1);
 		List_1_t777473367 * L_2 = (List_1_t777473367 *)il2cpp_codegen_object_new(List_1_t777473367_il2cpp_TypeInfo_var);
 		List_1__ctor_m2885667311(L_2, /*hidden argument*/List_1__ctor_m2885667311_RuntimeMethod_var);
-		__this->set_CameraPositions_10(L_2);
+		__this->set_CameraPositions_11(L_2);
 		MonoBehaviourPun__ctor_m4088882012(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
-// System.Void GameManagerScript::Start()
-extern "C" IL2CPP_METHOD_ATTR void GameManagerScript_Start_m515681549 (GameManagerScript_t1044651259 * __this, const RuntimeMethod* method)
+// System.Void GameManagerScript::Awake()
+extern "C" IL2CPP_METHOD_ATTR void GameManagerScript_Awake_m1822822285 (GameManagerScript_t1044651259 * __this, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (GameManagerScript_Start_m515681549_MetadataUsageId);
+		il2cpp_codegen_initialize_method (GameManagerScript_Awake_m1822822285_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
@@ -35399,14 +35599,14 @@ extern "C" IL2CPP_METHOD_ATTR void GameManagerScript_Update_m3148649340 (GameMan
 		}
 	}
 	{
-		bool L_2 = __this->get_areCharInstantiated_12();
+		bool L_2 = __this->get_areCharInstantiated_13();
 		if (L_2)
 		{
 			goto IL_00aa;
 		}
 	}
 	{
-		__this->set_areCharInstantiated_12((bool)1);
+		__this->set_areCharInstantiated_13((bool)1);
 		GameUIManager_t2322768 * L_3 = ((GameUIManager_t2322768_StaticFields*)il2cpp_codegen_static_fields_for(GameUIManager_t2322768_il2cpp_TypeInfo_var))->get_Instance_5();
 		PlayersContainer_t929197369 * L_4 = ((PlayersContainer_t929197369_StaticFields*)il2cpp_codegen_static_fields_for(PlayersContainer_t929197369_il2cpp_TypeInfo_var))->get_Instance_6();
 		NullCheck(L_4);
@@ -35498,10 +35698,10 @@ extern "C" IL2CPP_METHOD_ATTR void GameManagerScript_CharInstantiator_m998297478
 	GameObject_t1113636619 * V_0 = NULL;
 	PlayerScript_t1783516946 * V_1 = NULL;
 	{
-		GameObject_t1113636619 * L_0 = __this->get_Character_11();
+		GameObject_t1113636619 * L_0 = __this->get_Character_12();
 		NullCheck(L_0);
 		String_t* L_1 = Object_get_name_m4211327027(L_0, /*hidden argument*/NULL);
-		List_1_t777473367 * L_2 = __this->get_CharPositions_9();
+		List_1_t777473367 * L_2 = __this->get_CharPositions_10();
 		PlayerClass_t2514349620 * L_3 = ___pc0;
 		NullCheck(L_3);
 		int32_t L_4 = L_3->get_Pos_3();
@@ -35509,7 +35709,7 @@ extern "C" IL2CPP_METHOD_ATTR void GameManagerScript_CharInstantiator_m998297478
 		Transform_t3600365921 * L_5 = List_1_get_Item_m3022113929(L_2, L_4, /*hidden argument*/List_1_get_Item_m3022113929_RuntimeMethod_var);
 		NullCheck(L_5);
 		Vector3_t3722313464  L_6 = Transform_get_position_m36019626(L_5, /*hidden argument*/NULL);
-		List_1_t777473367 * L_7 = __this->get_CharPositions_9();
+		List_1_t777473367 * L_7 = __this->get_CharPositions_10();
 		PlayerClass_t2514349620 * L_8 = ___pc0;
 		NullCheck(L_8);
 		int32_t L_9 = L_8->get_Pos_3();
@@ -35536,7 +35736,7 @@ extern "C" IL2CPP_METHOD_ATTR void GameManagerScript_CharInstantiator_m998297478
 		List_1_t1812449865 * L_20 = L_19->get_Skin_1();
 		NullCheck(L_18);
 		L_18->set_Skin_10(L_20);
-		Dictionary_2_t2349950 * L_21 = __this->get_ListOfPayersAndChars_8();
+		Dictionary_2_t2349950 * L_21 = __this->get_ListOfPayersAndChars_9();
 		PlayerClass_t2514349620 * L_22 = ___pc0;
 		NullCheck(L_22);
 		Player_t2879569589 * L_23 = L_22->get_CurrentPlayer_0();
@@ -35682,8 +35882,10 @@ extern "C" IL2CPP_METHOD_ATTR void GameManagerScript_StartMatch_m3419779421 (Gam
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		int32_t L_0 = __this->get_MatchNumber_6();
+		__this->set_MatchNumber_6(((int32_t)il2cpp_codegen_add((int32_t)L_0, (int32_t)1)));
 		MonoBehaviour_Invoke_m4227543964(__this, _stringLiteral2847491739, (2.0f), /*hidden argument*/NULL);
-		__this->set_GMStatus_6(1);
+		__this->set_GMStatus_7(1);
 		return;
 	}
 }
@@ -35697,7 +35899,7 @@ extern "C" IL2CPP_METHOD_ATTR void GameManagerScript_EndMatch_m510723482 (GameMa
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		__this->set_GMStatus_6(2);
+		__this->set_GMStatus_7(2);
 		MonoBehaviour_Invoke_m4227543964(__this, _stringLiteral3691989412, (1.0f), /*hidden argument*/NULL);
 		return;
 	}
@@ -35730,7 +35932,7 @@ extern "C" IL2CPP_METHOD_ATTR void GameManagerScript_CreateRank_m2990503988 (Gam
 		PlayersContainer_t929197369 * L_1 = ((PlayersContainer_t929197369_StaticFields*)il2cpp_codegen_static_fields_for(PlayersContainer_t929197369_il2cpp_TypeInfo_var))->get_Instance_6();
 		NullCheck(L_1);
 		List_1_t3986424362 * L_2 = L_1->get_PlayersList_4();
-		Func_2_t3573941931 * L_3 = ((GameManagerScript_t1044651259_StaticFields*)il2cpp_codegen_static_fields_for(GameManagerScript_t1044651259_il2cpp_TypeInfo_var))->get_U3CU3Ef__amU24cache0_13();
+		Func_2_t3573941931 * L_3 = ((GameManagerScript_t1044651259_StaticFields*)il2cpp_codegen_static_fields_for(GameManagerScript_t1044651259_il2cpp_TypeInfo_var))->get_U3CU3Ef__amU24cache0_14();
 		G_B1_0 = L_2;
 		if (L_3)
 		{
@@ -35742,13 +35944,13 @@ extern "C" IL2CPP_METHOD_ATTR void GameManagerScript_CreateRank_m2990503988 (Gam
 		intptr_t L_4 = (intptr_t)GameManagerScript_U3CCreateRankU3Em__0_m3211252729_RuntimeMethod_var;
 		Func_2_t3573941931 * L_5 = (Func_2_t3573941931 *)il2cpp_codegen_object_new(Func_2_t3573941931_il2cpp_TypeInfo_var);
 		Func_2__ctor_m181181307(L_5, NULL, (intptr_t)L_4, /*hidden argument*/Func_2__ctor_m181181307_RuntimeMethod_var);
-		((GameManagerScript_t1044651259_StaticFields*)il2cpp_codegen_static_fields_for(GameManagerScript_t1044651259_il2cpp_TypeInfo_var))->set_U3CU3Ef__amU24cache0_13(L_5);
+		((GameManagerScript_t1044651259_StaticFields*)il2cpp_codegen_static_fields_for(GameManagerScript_t1044651259_il2cpp_TypeInfo_var))->set_U3CU3Ef__amU24cache0_14(L_5);
 		G_B2_0 = G_B1_0;
 	}
 
 IL_0028:
 	{
-		Func_2_t3573941931 * L_6 = ((GameManagerScript_t1044651259_StaticFields*)il2cpp_codegen_static_fields_for(GameManagerScript_t1044651259_il2cpp_TypeInfo_var))->get_U3CU3Ef__amU24cache0_13();
+		Func_2_t3573941931 * L_6 = ((GameManagerScript_t1044651259_StaticFields*)il2cpp_codegen_static_fields_for(GameManagerScript_t1044651259_il2cpp_TypeInfo_var))->get_U3CU3Ef__amU24cache0_14();
 		RuntimeObject* L_7 = Enumerable_OrderByDescending_TisPlayerClass_t2514349620_TisInt32_t2950945753_m3324032479(NULL /*static, unused*/, G_B2_0, L_6, /*hidden argument*/Enumerable_OrderByDescending_TisPlayerClass_t2514349620_TisInt32_t2950945753_m3324032479_RuntimeMethod_var);
 		NullCheck(L_7);
 		RuntimeObject* L_8 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<!0> System.Collections.Generic.IEnumerable`1<PlayerClass>::GetEnumerator() */, IEnumerable_1_t1494202509_il2cpp_TypeInfo_var, L_7);
@@ -35898,6 +36100,15 @@ IL_00d5:
 		(L_45)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject *)L_46);
 		NullCheck(L_43);
 		PhotonView_RPC_m3795981556(L_43, _stringLiteral1953969499, 0, L_45, /*hidden argument*/NULL);
+		PhotonView_t3684715584 * L_47 = MonoBehaviourPun_get_photonView_m4085429734(__this, /*hidden argument*/NULL);
+		ObjectU5BU5D_t2843939325* L_48 = (ObjectU5BU5D_t2843939325*)SZArrayNew(ObjectU5BU5D_t2843939325_il2cpp_TypeInfo_var, (uint32_t)1);
+		ObjectU5BU5D_t2843939325* L_49 = L_48;
+		String_t* L_50 = V_0;
+		NullCheck(L_49);
+		ArrayElementTypeCheck (L_49, L_50);
+		(L_49)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject *)L_50);
+		NullCheck(L_47);
+		PhotonView_RPC_m3795981556(L_47, _stringLiteral704324358, 0, L_49, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -35941,7 +36152,7 @@ extern "C" IL2CPP_METHOD_ATTR void GameManagerScript_YouDie_m4152416511 (GameMan
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		Dictionary_2_t2349950 * L_0 = __this->get_ListOfPayersAndChars_8();
+		Dictionary_2_t2349950 * L_0 = __this->get_ListOfPayersAndChars_9();
 		NullCheck(L_0);
 		int32_t L_1 = Dictionary_2_get_Count_m1518087335(L_0, /*hidden argument*/Dictionary_2_get_Count_m1518087335_RuntimeMethod_var);
 		if ((((int32_t)L_1) <= ((int32_t)0)))
@@ -35950,7 +36161,7 @@ extern "C" IL2CPP_METHOD_ATTR void GameManagerScript_YouDie_m4152416511 (GameMan
 		}
 	}
 	{
-		Dictionary_2_t2349950 * L_2 = __this->get_ListOfPayersAndChars_8();
+		Dictionary_2_t2349950 * L_2 = __this->get_ListOfPayersAndChars_9();
 		int32_t L_3 = ___actorNum0;
 		NullCheck(L_2);
 		GameObject_t1113636619 * L_4 = Dictionary_2_get_Item_m798225041(L_2, L_3, /*hidden argument*/Dictionary_2_get_Item_m798225041_RuntimeMethod_var);
@@ -35962,7 +36173,7 @@ extern "C" IL2CPP_METHOD_ATTR void GameManagerScript_YouDie_m4152416511 (GameMan
 		}
 	}
 	{
-		Dictionary_2_t2349950 * L_6 = __this->get_ListOfPayersAndChars_8();
+		Dictionary_2_t2349950 * L_6 = __this->get_ListOfPayersAndChars_9();
 		int32_t L_7 = ___actorNum0;
 		NullCheck(L_6);
 		GameObject_t1113636619 * L_8 = Dictionary_2_get_Item_m798225041(L_6, L_7, /*hidden argument*/Dictionary_2_get_Item_m798225041_RuntimeMethod_var);
@@ -36038,13 +36249,13 @@ extern "C" IL2CPP_METHOD_ATTR void GameUIManager__ctor_m125349919 (GameUIManager
 		return;
 	}
 }
-// System.Void GameUIManager::Start()
-extern "C" IL2CPP_METHOD_ATTR void GameUIManager_Start_m2761090165 (GameUIManager_t2322768 * __this, const RuntimeMethod* method)
+// System.Void GameUIManager::Awake()
+extern "C" IL2CPP_METHOD_ATTR void GameUIManager_Awake_m3276374319 (GameUIManager_t2322768 * __this, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (GameUIManager_Start_m2761090165_MetadataUsageId);
+		il2cpp_codegen_initialize_method (GameUIManager_Awake_m3276374319_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
@@ -36133,21 +36344,6 @@ extern "C" IL2CPP_METHOD_ATTR void GameUIManager_WriteRank_m2812525369 (GameUIMa
 	}
 
 IL_0028:
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(PhotonNetwork_t3232838738_il2cpp_TypeInfo_var);
-		bool L_6 = PhotonNetwork_get_IsMasterClient_m492574719(NULL /*static, unused*/, /*hidden argument*/NULL);
-		if (!L_6)
-		{
-			goto IL_003c;
-		}
-	}
-	{
-		GameManagerScript_t1044651259 * L_7 = ((GameManagerScript_t1044651259_StaticFields*)il2cpp_codegen_static_fields_for(GameManagerScript_t1044651259_il2cpp_TypeInfo_var))->get_Instance_5();
-		NullCheck(L_7);
-		GameManagerScript_SetupNextMatch_m1535000493(L_7, /*hidden argument*/NULL);
-	}
-
-IL_003c:
 	{
 		return;
 	}
@@ -36700,7 +36896,10 @@ extern "C" IL2CPP_METHOD_ATTR void Launcher__ctor_m1375570260 (Launcher_t7571978
 	}
 	{
 		__this->set_maxPlayersPerRoom_5((uint8_t)4);
-		__this->set_gameVersion_9(_stringLiteral3452614543);
+		__this->set_SkinId_7(3);
+		__this->set_HatId_8(2);
+		__this->set_WeaponId_9(3);
+		__this->set_gameVersion_11(_stringLiteral3452614543);
 		MonoBehaviourPunCallbacks__ctor_m817142383(__this, /*hidden argument*/NULL);
 		return;
 	}
@@ -36717,6 +36916,7 @@ extern "C" IL2CPP_METHOD_ATTR void Launcher_Awake_m4224813011 (Launcher_t7571978
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(PhotonNetwork_t3232838738_il2cpp_TypeInfo_var);
 		PhotonNetwork_set_AutomaticallySyncScene_m2359349107(NULL /*static, unused*/, (bool)1, /*hidden argument*/NULL);
+		((Launcher_t75719789_StaticFields*)il2cpp_codegen_static_fields_for(Launcher_t75719789_il2cpp_TypeInfo_var))->set_Instance_6(__this);
 		return;
 	}
 }
@@ -36730,7 +36930,18 @@ extern "C" IL2CPP_METHOD_ATTR void Launcher_Start_m3970372386 (Launcher_t7571978
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		((Launcher_t75719789_StaticFields*)il2cpp_codegen_static_fields_for(Launcher_t75719789_il2cpp_TypeInfo_var))->set_Instance_6(__this);
+		UISkinManager_t1774305045 * L_0 = ((UISkinManager_t1774305045_StaticFields*)il2cpp_codegen_static_fields_for(UISkinManager_t1774305045_il2cpp_TypeInfo_var))->get_Instance_4();
+		int32_t L_1 = __this->get_HatId_8();
+		NullCheck(L_0);
+		UISkinManager_SetColorToHat_m737229946(L_0, L_1, /*hidden argument*/NULL);
+		UISkinManager_t1774305045 * L_2 = ((UISkinManager_t1774305045_StaticFields*)il2cpp_codegen_static_fields_for(UISkinManager_t1774305045_il2cpp_TypeInfo_var))->get_Instance_4();
+		int32_t L_3 = __this->get_SkinId_7();
+		NullCheck(L_2);
+		UISkinManager_SetColorToSkin_m2921701468(L_2, L_3, /*hidden argument*/NULL);
+		UISkinManager_t1774305045 * L_4 = ((UISkinManager_t1774305045_StaticFields*)il2cpp_codegen_static_fields_for(UISkinManager_t1774305045_il2cpp_TypeInfo_var))->get_Instance_4();
+		int32_t L_5 = __this->get_WeaponId_9();
+		NullCheck(L_4);
+		UISkinManager_SetColorToWeapon_m2558258648(L_4, L_5, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -36744,7 +36955,7 @@ extern "C" IL2CPP_METHOD_ATTR void Launcher_Connect_m4173759695 (Launcher_t75719
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		__this->set_isConnecting_8((bool)1);
+		__this->set_isConnecting_10((bool)1);
 		IL2CPP_RUNTIME_CLASS_INIT(PhotonNetwork_t3232838738_il2cpp_TypeInfo_var);
 		bool L_0 = PhotonNetwork_get_IsConnected_m925803950(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if (!L_0)
@@ -36760,7 +36971,7 @@ extern "C" IL2CPP_METHOD_ATTR void Launcher_Connect_m4173759695 (Launcher_t75719
 
 IL_001c:
 	{
-		String_t* L_1 = __this->get_gameVersion_9();
+		String_t* L_1 = __this->get_gameVersion_11();
 		IL2CPP_RUNTIME_CLASS_INIT(PhotonNetwork_t3232838738_il2cpp_TypeInfo_var);
 		PhotonNetwork_set_GameVersion_m1778825003(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
 		PhotonNetwork_ConnectUsingSettings_m1338349691(NULL /*static, unused*/, /*hidden argument*/NULL);
@@ -36781,7 +36992,7 @@ extern "C" IL2CPP_METHOD_ATTR void Launcher_OnConnectedToMaster_m2020967690 (Lau
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		bool L_0 = __this->get_isConnecting_8();
+		bool L_0 = __this->get_isConnecting_10();
 		if (!L_0)
 		{
 			goto IL_001b;
@@ -36837,7 +37048,7 @@ extern "C" IL2CPP_METHOD_ATTR void Launcher_OnDisconnected_m402048288 (Launcher_
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_t3317548046_il2cpp_TypeInfo_var);
 		Debug_LogError_m2850623458(NULL /*static, unused*/, _stringLiteral4070697741, /*hidden argument*/NULL);
-		__this->set_isConnecting_8((bool)0);
+		__this->set_isConnecting_10((bool)0);
 		return;
 	}
 }
@@ -36928,7 +37139,7 @@ extern "C" IL2CPP_METHOD_ATTR void Launcher_RPC_Connected_m1461143448 (Launcher_
 		SkinManager_t733803510 * L_16 = ((SkinManager_t733803510_StaticFields*)il2cpp_codegen_static_fields_for(SkinManager_t733803510_il2cpp_TypeInfo_var))->get_Instance_4();
 		List_1_t128053199 * L_17 = V_1;
 		NullCheck(L_16);
-		List_1_t1812449865 * L_18 = SkinManager_GetMaterials_m678546389(L_16, L_17, /*hidden argument*/NULL);
+		List_1_t1812449865 * L_18 = SkinManager_GetSkinMaterials_m3167030053(L_16, L_17, /*hidden argument*/NULL);
 		PlayerU5BU5D_t3651776216* L_19 = PhotonNetwork_get_PlayerList_m2399782506(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_19);
 		int32_t L_20 = ___skinId1;
@@ -37148,13 +37359,13 @@ extern "C" IL2CPP_METHOD_ATTR void PUNManagerScript__ctor_m1223283072 (PUNManage
 		return;
 	}
 }
-// System.Void PUNManagerScript::Start()
-extern "C" IL2CPP_METHOD_ATTR void PUNManagerScript_Start_m757199088 (PUNManagerScript_t2684874755 * __this, const RuntimeMethod* method)
+// System.Void PUNManagerScript::Awake()
+extern "C" IL2CPP_METHOD_ATTR void PUNManagerScript_Awake_m3501269315 (PUNManagerScript_t2684874755 * __this, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (PUNManagerScript_Start_m757199088_MetadataUsageId);
+		il2cpp_codegen_initialize_method (PUNManagerScript_Awake_m3501269315_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
@@ -37203,7 +37414,7 @@ extern "C" IL2CPP_METHOD_ATTR void PUNManagerScript_RPC_SetSkin_m3931148199 (PUN
 		SkinManager_t733803510 * L_12 = ((SkinManager_t733803510_StaticFields*)il2cpp_codegen_static_fields_for(SkinManager_t733803510_il2cpp_TypeInfo_var))->get_Instance_4();
 		List_1_t128053199 * L_13 = V_3;
 		NullCheck(L_12);
-		List_1_t1812449865 * L_14 = SkinManager_GetMaterials_m678546389(L_12, L_13, /*hidden argument*/NULL);
+		List_1_t1812449865 * L_14 = SkinManager_GetSkinMaterials_m3167030053(L_12, L_13, /*hidden argument*/NULL);
 		NullCheck(L_11);
 		L_11->set_Skin_10(L_14);
 		PlayerScript_t1783516946 * L_15 = V_2;
@@ -37238,7 +37449,7 @@ extern "C" IL2CPP_METHOD_ATTR void PUNManagerScript_RPC_SetSkin_m3931148199 (PUN
 		Transform_t3600365921 * L_29 = Component_get_transform_m3162698980(L_28, /*hidden argument*/NULL);
 		GameManagerScript_t1044651259 * L_30 = ((GameManagerScript_t1044651259_StaticFields*)il2cpp_codegen_static_fields_for(GameManagerScript_t1044651259_il2cpp_TypeInfo_var))->get_Instance_5();
 		NullCheck(L_30);
-		List_1_t777473367 * L_31 = L_30->get_CameraPositions_10();
+		List_1_t777473367 * L_31 = L_30->get_CameraPositions_11();
 		int32_t L_32 = ___camPos2;
 		NullCheck(L_31);
 		Transform_t3600365921 * L_33 = List_1_get_Item_m3022113929(L_31, L_32, /*hidden argument*/List_1_get_Item_m3022113929_RuntimeMethod_var);
@@ -37251,7 +37462,7 @@ extern "C" IL2CPP_METHOD_ATTR void PUNManagerScript_RPC_SetSkin_m3931148199 (PUN
 		Transform_t3600365921 * L_36 = Component_get_transform_m3162698980(L_35, /*hidden argument*/NULL);
 		GameManagerScript_t1044651259 * L_37 = ((GameManagerScript_t1044651259_StaticFields*)il2cpp_codegen_static_fields_for(GameManagerScript_t1044651259_il2cpp_TypeInfo_var))->get_Instance_5();
 		NullCheck(L_37);
-		List_1_t777473367 * L_38 = L_37->get_CameraPositions_10();
+		List_1_t777473367 * L_38 = L_37->get_CameraPositions_11();
 		int32_t L_39 = ___camPos2;
 		NullCheck(L_38);
 		Transform_t3600365921 * L_40 = List_1_get_Item_m3022113929(L_38, L_39, /*hidden argument*/List_1_get_Item_m3022113929_RuntimeMethod_var);
@@ -37377,6 +37588,34 @@ extern "C" IL2CPP_METHOD_ATTR void PUNManagerScript_RPC_WriteRank_m4035202956 (P
 		String_t* L_1 = ___rank0;
 		NullCheck(L_0);
 		GameUIManager_WriteRank_m2812525369(L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void PUNManagerScript::RPC_SetupNextMatch()
+extern "C" IL2CPP_METHOD_ATTR void PUNManagerScript_RPC_SetupNextMatch_m2834368917 (PUNManagerScript_t2684874755 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (PUNManagerScript_RPC_SetupNextMatch_m2834368917_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(PhotonNetwork_t3232838738_il2cpp_TypeInfo_var);
+		bool L_0 = PhotonNetwork_get_IsMasterClient_m492574719(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		GameManagerScript_t1044651259 * L_1 = ((GameManagerScript_t1044651259_StaticFields*)il2cpp_codegen_static_fields_for(GameManagerScript_t1044651259_il2cpp_TypeInfo_var))->get_Instance_5();
+		NullCheck(L_1);
+		GameManagerScript_SetupNextMatch_m1535000493(L_1, /*hidden argument*/NULL);
+	}
+
+IL_0014:
+	{
 		return;
 	}
 }

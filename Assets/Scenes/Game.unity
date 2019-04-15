@@ -1170,9 +1170,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ListOfSkin:
-  - {fileID: 2100000, guid: f0fc3cb5230284200aaaea58a2a8c7e4, type: 2}
+  - {fileID: 2100000, guid: 34417bce2b9904bb9853c344296e79a1, type: 2}
+  - {fileID: 2100000, guid: 20e65724e96de4e2c9e743d010d97925, type: 2}
   - {fileID: 2100000, guid: 7420205f386b54d1785da59549186b8e, type: 2}
+  - {fileID: 2100000, guid: bf2f25e9759554e1fb3a2ff39e9c38f3, type: 2}
+  - {fileID: 2100000, guid: 26a941585ac1f4407868179319095dee, type: 2}
+  - {fileID: 2100000, guid: 9ba55819d1a724de99a2822469f3844f, type: 2}
   - {fileID: 2100000, guid: d245bf881d8ee458e9290560bb29a05d, type: 2}
+  - {fileID: 2100000, guid: f0fc3cb5230284200aaaea58a2a8c7e4, type: 2}
+  - {fileID: 2100000, guid: 49d9e2f3d1897479b92f89a45294a9ad, type: 2}
   StartMousePosition: {x: -1, y: -1}
 --- !u!114 &1333466240
 MonoBehaviour:

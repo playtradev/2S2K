@@ -30,7 +30,10 @@ public class Launcher : MonoBehaviourPunCallbacks
 
 	public static Launcher Instance;
 
-	public int SkinId = 0;
+	public int SkinId = 3;
+	public int HatId = 2;
+	public int WeaponId = 3;
+
 	#endregion
 
 	#region Private Fields
@@ -58,14 +61,16 @@ public class Launcher : MonoBehaviourPunCallbacks
 		// #Critical
 		// this makes sure we can use PhotonNetwork.LoadLevel() on the master client and all clients in the same room sync their level automatically
 		PhotonNetwork.AutomaticallySyncScene = true;
-
+		Instance = this;
+        
 	}
 
 	private void Start()
 	{
-		Instance = this;
 		//Debug.Log(SkinId);
-		//UISkinManager.Instance.SetColorToChar(SkinId);
+		UISkinManager.Instance.SetColorToHat(HatId);
+		UISkinManager.Instance.SetColorToSkin(SkinId);
+		UISkinManager.Instance.SetColorToWeapon(WeaponId);
 	}
 
 	#endregion
@@ -182,7 +187,7 @@ public class Launcher : MonoBehaviourPunCallbacks
             mats.Add(skinId);
 			Player[] plys = PhotonNetwork.PlayerList;
 			PlayersContainer.Instance.PlayersList.Add(new PlayerClass(plys.Where(r => r.ActorNumber == actorNumber).First(),
-			                                                          SkinManager.Instance.GetMaterials(mats), PhotonNetwork.PlayerList.Length - 1, skinId,
+			                                                          SkinManager.Instance.GetSkinMaterials(mats), PhotonNetwork.PlayerList.Length - 1, skinId,
 			                                                          20, 10));
 			PlayersContainer.Instance.StartingTime = (float)PhotonNetwork.Time + 5;
 

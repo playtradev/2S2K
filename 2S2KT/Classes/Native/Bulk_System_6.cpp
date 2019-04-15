@@ -3139,7 +3139,7 @@ extern "C" IL2CPP_METHOD_ATTR void Object__ctor_m297566312 (RuntimeObject * __th
 // System.String System.Uri::get_Scheme()
 extern "C" IL2CPP_METHOD_ATTR String_t* Uri_get_Scheme_m1686732325 (Uri_t100236324 * __this, const RuntimeMethod* method);
 // System.String System.Uri::get_Host()
-extern "C" IL2CPP_METHOD_ATTR String_t* Uri_get_Host_m42857288 (Uri_t100236324 * __this, const RuntimeMethod* method);
+extern "C" IL2CPP_METHOD_ATTR String_t* Uri_get_Host_m255565830 (Uri_t100236324 * __this, const RuntimeMethod* method);
 // System.Int32 System.Uri::get_Port()
 extern "C" IL2CPP_METHOD_ATTR int32_t Uri_get_Port_m184067428 (Uri_t100236324 * __this, const RuntimeMethod* method);
 // System.String System.Uri::get_AbsolutePath()
@@ -3339,7 +3339,7 @@ extern "C" IL2CPP_METHOD_ATTR void UriBuilder__ctor_m377291920 (UriBuilder_t5793
 		__this->set_scheme_0(L_1);
 		Uri_t100236324 * L_2 = ___uri0;
 		NullCheck(L_2);
-		String_t* L_3 = Uri_get_Host_m42857288(L_2, /*hidden argument*/NULL);
+		String_t* L_3 = Uri_get_Host_m255565830(L_2, /*hidden argument*/NULL);
 		__this->set_host_1(L_3);
 		Uri_t100236324 * L_4 = ___uri0;
 		NullCheck(L_4);

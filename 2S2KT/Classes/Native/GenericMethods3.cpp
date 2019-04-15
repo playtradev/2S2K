@@ -781,7 +781,7 @@ extern const RuntimeMethod* GameObject_GetComponents_TisComponent_t1923634451_m1
 extern const RuntimeMethod* ListPool_1_Get_m2062177143_RuntimeMethod_var;
 extern const RuntimeMethod* ListPool_1_Release_m3920209327_RuntimeMethod_var;
 extern const RuntimeMethod* List_1_get_Count_m1775926259_RuntimeMethod_var;
-extern const RuntimeMethod* List_1_get_Count_m3543896146_RuntimeMethod_var;
+extern const RuntimeMethod* List_1_get_Count_m3787308655_RuntimeMethod_var;
 extern const RuntimeMethod* List_1_get_Item_m2388634696_RuntimeMethod_var;
 extern const RuntimeMethod* List_1_get_Item_m3022113929_RuntimeMethod_var;
 extern const RuntimeMethod* Object_Instantiate_TisRuntimeObject_m2446893047_RuntimeMethod_var;
@@ -21103,7 +21103,7 @@ inline Transform_t3600365921 * List_1_get_Item_m3022113929 (List_1_t777473367 * 
 	return ((  Transform_t3600365921 * (*) (List_1_t777473367 *, int32_t, const RuntimeMethod*))List_1_get_Item_m2287542950_gshared)(__this, p0, method);
 }
 // System.Int32 System.Collections.Generic.List`1<UnityEngine.Transform>::get_Count()
-inline int32_t List_1_get_Count_m3543896146 (List_1_t777473367 * __this, const RuntimeMethod* method)
+inline int32_t List_1_get_Count_m3787308655 (List_1_t777473367 * __this, const RuntimeMethod* method)
 {
 	return ((  int32_t (*) (List_1_t777473367 *, const RuntimeMethod*))List_1_get_Count_m2934127733_gshared)(__this, method);
 }
@@ -38822,7 +38822,7 @@ IL_0043:
 		IL2CPP_RUNTIME_CLASS_INIT(ExecuteEvents_t3484638744_il2cpp_TypeInfo_var);
 		List_1_t777473367 * L_14 = ((ExecuteEvents_t3484638744_StaticFields*)il2cpp_codegen_static_fields_for(ExecuteEvents_t3484638744_il2cpp_TypeInfo_var))->get_s_InternalTransformList_18();
 		NullCheck((List_1_t777473367 *)L_14);
-		int32_t L_15 = List_1_get_Count_m3543896146((List_1_t777473367 *)L_14, /*hidden argument*/List_1_get_Count_m3543896146_RuntimeMethod_var);
+		int32_t L_15 = List_1_get_Count_m3787308655((List_1_t777473367 *)L_14, /*hidden argument*/List_1_get_Count_m3787308655_RuntimeMethod_var);
 		if ((((int32_t)L_13) < ((int32_t)L_15)))
 		{
 			goto IL_0013;

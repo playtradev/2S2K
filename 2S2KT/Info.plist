@@ -51,15 +51,12 @@
     <string>UIStatusBarStyleDefault</string>
     <key>UISupportedInterfaceOrientations</key>
     <array>
-      <string>UIInterfaceOrientationPortrait</string>
-      <string>UIInterfaceOrientationPortraitUpsideDown</string>
       <string>UIInterfaceOrientationLandscapeRight</string>
-      <string>UIInterfaceOrientationLandscapeLeft</string>
     </array>
     <key>Unity_LoadingActivityIndicatorStyle</key>
     <integer>-1</integer>
     <key>UnityCloudProjectID</key>
-    <string></string>
+    <string>cadafeee-4962-4e5a-9a6c-a62280adf844</string>
     <key>UnityCrashSubmissionURL</key>
     <string>https://a:b@perf-events.cloud.unity3d.com/symbolicate</string>
   </dict>

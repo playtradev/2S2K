@@ -987,7 +987,7 @@ extern RuntimeClass* WebRequest_t1939381076_il2cpp_TypeInfo_var;
 extern RuntimeClass* WriteDelegate_t2016697242_il2cpp_TypeInfo_var;
 extern RuntimeClass* X509CertificateCollection_t3399372417_il2cpp_TypeInfo_var;
 extern RuntimeClass* XmlNode_t3767805227_il2cpp_TypeInfo_var;
-extern RuntimeField* U3CPrivateImplementationDetailsU3E_t3057255363____U24U24fieldU2D1_0_FieldInfo_var;
+extern RuntimeField* U3CPrivateImplementationDetailsU3E_t3057255364____U24U24fieldU2D1_0_FieldInfo_var;
 extern String_t* _stringLiteral1008880119;
 extern String_t* _stringLiteral1021786745;
 extern String_t* _stringLiteral103388761;
@@ -6611,8 +6611,8 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // XMLREADER_T3121518892_H
-#ifndef U24ARRAYTYPEU2412_T2490092598_H
-#define U24ARRAYTYPEU2412_T2490092598_H
+#ifndef U24ARRAYTYPEU2412_T2490092599_H
+#define U24ARRAYTYPEU2412_T2490092599_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -6620,7 +6620,7 @@ public:
 #endif
 
 // <PrivateImplementationDetails>/$ArrayType$12
-struct  U24ArrayTypeU2412_t2490092598 
+struct  U24ArrayTypeU2412_t2490092599 
 {
 public:
 	union
@@ -6631,7 +6631,7 @@ public:
 			{
 			};
 		};
-		uint8_t U24ArrayTypeU2412_t2490092598__padding[12];
+		uint8_t U24ArrayTypeU2412_t2490092599__padding[12];
 	};
 
 public:
@@ -6640,7 +6640,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // U24ARRAYTYPEU2412_T2490092598_H
+#endif // U24ARRAYTYPEU2412_T2490092599_H
 #ifndef U24ARRAYTYPEU24128_T4289081660_H
 #define U24ARRAYTYPEU24128_T4289081660_H
 #ifdef __clang__
@@ -6671,8 +6671,8 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // U24ARRAYTYPEU24128_T4289081660_H
-#ifndef U24ARRAYTYPEU2416_T3254766645_H
-#define U24ARRAYTYPEU2416_T3254766645_H
+#ifndef U24ARRAYTYPEU2416_T3254766646_H
+#define U24ARRAYTYPEU2416_T3254766646_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -6680,7 +6680,7 @@ public:
 #endif
 
 // <PrivateImplementationDetails>/$ArrayType$16
-struct  U24ArrayTypeU2416_t3254766645 
+struct  U24ArrayTypeU2416_t3254766646 
 {
 public:
 	union
@@ -6691,7 +6691,7 @@ public:
 			{
 			};
 		};
-		uint8_t U24ArrayTypeU2416_t3254766645__padding[16];
+		uint8_t U24ArrayTypeU2416_t3254766646__padding[16];
 	};
 
 public:
@@ -6700,7 +6700,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // U24ARRAYTYPEU2416_T3254766645_H
+#endif // U24ARRAYTYPEU2416_T3254766646_H
 #ifndef BOOLEAN_T97287965_H
 #define BOOLEAN_T97287965_H
 #ifdef __clang__
@@ -8914,8 +8914,8 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // XMLATTRIBUTECOLLECTION_T2316283784_H
-#ifndef U3CPRIVATEIMPLEMENTATIONDETAILSU3E_T3057255363_H
-#define U3CPRIVATEIMPLEMENTATIONDETAILSU3E_T3057255363_H
+#ifndef U3CPRIVATEIMPLEMENTATIONDETAILSU3E_T3057255364_H
+#define U3CPRIVATEIMPLEMENTATIONDETAILSU3E_T3057255364_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -8923,35 +8923,35 @@ public:
 #endif
 
 // <PrivateImplementationDetails>
-struct  U3CPrivateImplementationDetailsU3E_t3057255363  : public RuntimeObject
+struct  U3CPrivateImplementationDetailsU3E_t3057255364  : public RuntimeObject
 {
 public:
 
 public:
 };
 
-struct U3CPrivateImplementationDetailsU3E_t3057255363_StaticFields
+struct U3CPrivateImplementationDetailsU3E_t3057255364_StaticFields
 {
 public:
 	// <PrivateImplementationDetails>/$ArrayType$16 <PrivateImplementationDetails>::$$field-1
-	U24ArrayTypeU2416_t3254766645  ___U24U24fieldU2D1_0;
+	U24ArrayTypeU2416_t3254766646  ___U24U24fieldU2D1_0;
 	// <PrivateImplementationDetails>/$ArrayType$128 <PrivateImplementationDetails>::$$field-3
 	U24ArrayTypeU24128_t4289081660  ___U24U24fieldU2D3_1;
 	// <PrivateImplementationDetails>/$ArrayType$12 <PrivateImplementationDetails>::$$field-4
-	U24ArrayTypeU2412_t2490092598  ___U24U24fieldU2D4_2;
+	U24ArrayTypeU2412_t2490092599  ___U24U24fieldU2D4_2;
 	// <PrivateImplementationDetails>/$ArrayType$12 <PrivateImplementationDetails>::$$field-5
-	U24ArrayTypeU2412_t2490092598  ___U24U24fieldU2D5_3;
+	U24ArrayTypeU2412_t2490092599  ___U24U24fieldU2D5_3;
 
 public:
-	inline static int32_t get_offset_of_U24U24fieldU2D1_0() { return static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t3057255363_StaticFields, ___U24U24fieldU2D1_0)); }
-	inline U24ArrayTypeU2416_t3254766645  get_U24U24fieldU2D1_0() const { return ___U24U24fieldU2D1_0; }
-	inline U24ArrayTypeU2416_t3254766645 * get_address_of_U24U24fieldU2D1_0() { return &___U24U24fieldU2D1_0; }
-	inline void set_U24U24fieldU2D1_0(U24ArrayTypeU2416_t3254766645  value)
+	inline static int32_t get_offset_of_U24U24fieldU2D1_0() { return static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t3057255364_StaticFields, ___U24U24fieldU2D1_0)); }
+	inline U24ArrayTypeU2416_t3254766646  get_U24U24fieldU2D1_0() const { return ___U24U24fieldU2D1_0; }
+	inline U24ArrayTypeU2416_t3254766646 * get_address_of_U24U24fieldU2D1_0() { return &___U24U24fieldU2D1_0; }
+	inline void set_U24U24fieldU2D1_0(U24ArrayTypeU2416_t3254766646  value)
 	{
 		___U24U24fieldU2D1_0 = value;
 	}
 
-	inline static int32_t get_offset_of_U24U24fieldU2D3_1() { return static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t3057255363_StaticFields, ___U24U24fieldU2D3_1)); }
+	inline static int32_t get_offset_of_U24U24fieldU2D3_1() { return static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t3057255364_StaticFields, ___U24U24fieldU2D3_1)); }
 	inline U24ArrayTypeU24128_t4289081660  get_U24U24fieldU2D3_1() const { return ___U24U24fieldU2D3_1; }
 	inline U24ArrayTypeU24128_t4289081660 * get_address_of_U24U24fieldU2D3_1() { return &___U24U24fieldU2D3_1; }
 	inline void set_U24U24fieldU2D3_1(U24ArrayTypeU24128_t4289081660  value)
@@ -8959,18 +8959,18 @@ public:
 		___U24U24fieldU2D3_1 = value;
 	}
 
-	inline static int32_t get_offset_of_U24U24fieldU2D4_2() { return static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t3057255363_StaticFields, ___U24U24fieldU2D4_2)); }
-	inline U24ArrayTypeU2412_t2490092598  get_U24U24fieldU2D4_2() const { return ___U24U24fieldU2D4_2; }
-	inline U24ArrayTypeU2412_t2490092598 * get_address_of_U24U24fieldU2D4_2() { return &___U24U24fieldU2D4_2; }
-	inline void set_U24U24fieldU2D4_2(U24ArrayTypeU2412_t2490092598  value)
+	inline static int32_t get_offset_of_U24U24fieldU2D4_2() { return static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t3057255364_StaticFields, ___U24U24fieldU2D4_2)); }
+	inline U24ArrayTypeU2412_t2490092599  get_U24U24fieldU2D4_2() const { return ___U24U24fieldU2D4_2; }
+	inline U24ArrayTypeU2412_t2490092599 * get_address_of_U24U24fieldU2D4_2() { return &___U24U24fieldU2D4_2; }
+	inline void set_U24U24fieldU2D4_2(U24ArrayTypeU2412_t2490092599  value)
 	{
 		___U24U24fieldU2D4_2 = value;
 	}
 
-	inline static int32_t get_offset_of_U24U24fieldU2D5_3() { return static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t3057255363_StaticFields, ___U24U24fieldU2D5_3)); }
-	inline U24ArrayTypeU2412_t2490092598  get_U24U24fieldU2D5_3() const { return ___U24U24fieldU2D5_3; }
-	inline U24ArrayTypeU2412_t2490092598 * get_address_of_U24U24fieldU2D5_3() { return &___U24U24fieldU2D5_3; }
-	inline void set_U24U24fieldU2D5_3(U24ArrayTypeU2412_t2490092598  value)
+	inline static int32_t get_offset_of_U24U24fieldU2D5_3() { return static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t3057255364_StaticFields, ___U24U24fieldU2D5_3)); }
+	inline U24ArrayTypeU2412_t2490092599  get_U24U24fieldU2D5_3() const { return ___U24U24fieldU2D5_3; }
+	inline U24ArrayTypeU2412_t2490092599 * get_address_of_U24U24fieldU2D5_3() { return &___U24U24fieldU2D5_3; }
+	inline void set_U24U24fieldU2D5_3(U24ArrayTypeU2412_t2490092599  value)
 	{
 		___U24U24fieldU2D5_3 = value;
 	}
@@ -8979,7 +8979,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // U3CPRIVATEIMPLEMENTATIONDETAILSU3E_T3057255363_H
+#endif // U3CPRIVATEIMPLEMENTATIONDETAILSU3E_T3057255364_H
 #ifndef ARGUMENTEXCEPTION_T132251570_H
 #define ARGUMENTEXCEPTION_T132251570_H
 #ifdef __clang__
@@ -17427,7 +17427,7 @@ extern "C" IL2CPP_METHOD_ATTR void WebProxy_set_Address_m4025958218 (WebProxy_t2
 // System.String System.Environment::GetEnvironmentVariable(System.String)
 extern "C" IL2CPP_METHOD_ATTR String_t* Environment_GetEnvironmentVariable_m394552009 (RuntimeObject * __this /* static, unused */, String_t* p0, const RuntimeMethod* method);
 // System.String System.Uri::get_Host()
-extern "C" IL2CPP_METHOD_ATTR String_t* Uri_get_Host_m42857288 (Uri_t100236324 * __this, const RuntimeMethod* method);
+extern "C" IL2CPP_METHOD_ATTR String_t* Uri_get_Host_m255565830 (Uri_t100236324 * __this, const RuntimeMethod* method);
 // System.Boolean System.Net.IPAddress::TryParse(System.String,System.Net.IPAddress&)
 extern "C" IL2CPP_METHOD_ATTR bool IPAddress_TryParse_m2320149543 (RuntimeObject * __this /* static, unused */, String_t* ___ipString0, IPAddress_t241777590 ** ___address1, const RuntimeMethod* method);
 // System.Void System.UriBuilder::.ctor(System.Uri)
@@ -17719,7 +17719,7 @@ extern "C" IL2CPP_METHOD_ATTR String_t* CookieParser_GetCookieValue_m3299537286 
 // System.Boolean System.Char::IsWhiteSpace(System.Char)
 extern "C" IL2CPP_METHOD_ATTR bool Char_IsWhiteSpace_m2148390798 (RuntimeObject * __this /* static, unused */, Il2CppChar p0, const RuntimeMethod* method);
 // System.Net.Security.RemoteCertificateValidationCallback System.Net.ServicePointManager::get_ServerCertificateValidationCallback()
-extern "C" IL2CPP_METHOD_ATTR RemoteCertificateValidationCallback_t3014364904 * ServicePointManager_get_ServerCertificateValidationCallback_m984921647 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method);
+extern "C" IL2CPP_METHOD_ATTR RemoteCertificateValidationCallback_t3014364904 * ServicePointManager_get_ServerCertificateValidationCallback_m2067275303 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method);
 // System.Void System.Net.Sockets.Socket::CheckProtocolSupport()
 extern "C" IL2CPP_METHOD_ATTR void Socket_CheckProtocolSupport_m1722155143 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method);
 // System.Void System.Net.IPHostEntry::.ctor()
@@ -18120,7 +18120,7 @@ extern "C" IL2CPP_METHOD_ATTR bool String_StartsWith_m2640722675 (String_t* __th
 // System.Void System.Net.Security.SslStream::.ctor(System.IO.Stream,System.Boolean,System.Net.Security.RemoteCertificateValidationCallback,System.Net.Security.LocalCertificateSelectionCallback)
 extern "C" IL2CPP_METHOD_ATTR void SslStream__ctor_m2028407324 (SslStream_t2700741536 * __this, Stream_t1273022909 * ___innerStream0, bool ___leaveStreamOpen1, RemoteCertificateValidationCallback_t3014364904 * ___certValidationCallback2, LocalCertificateSelectionCallback_t2354453884 * ___certSelectionCallback3, const RuntimeMethod* method);
 // System.Boolean System.Net.Security.RemoteCertificateValidationCallback::Invoke(System.Object,System.Security.Cryptography.X509Certificates.X509Certificate,System.Security.Cryptography.X509Certificates.X509Chain,System.Net.Security.SslPolicyErrors)
-extern "C" IL2CPP_METHOD_ATTR bool RemoteCertificateValidationCallback_Invoke_m727898444 (RemoteCertificateValidationCallback_t3014364904 * __this, RuntimeObject * ___sender0, X509Certificate_t713131622 * ___certificate1, X509Chain_t194917408 * ___chain2, int32_t ___sslPolicyErrors3, const RuntimeMethod* method);
+extern "C" IL2CPP_METHOD_ATTR bool RemoteCertificateValidationCallback_Invoke_m3086073466 (RemoteCertificateValidationCallback_t3014364904 * __this, RuntimeObject * ___sender0, X509Certificate_t713131622 * ___certificate1, X509Chain_t194917408 * ___chain2, int32_t ___sslPolicyErrors3, const RuntimeMethod* method);
 // System.Void System.Net.FtpWebRequest::OperationCompleted()
 extern "C" IL2CPP_METHOD_ATTR void FtpWebRequest_OperationCompleted_m77641069 (FtpWebRequest_t1577818305 * __this, const RuntimeMethod* method);
 // System.Void System.Net.FtpWebResponse::CheckDisposed()
@@ -18138,7 +18138,7 @@ extern "C" IL2CPP_METHOD_ATTR void WebHeaderCollection__ctor_m1926872774 (WebHea
 // System.Object System.Configuration.ConfigurationSettings::GetConfig(System.String)
 extern "C" IL2CPP_METHOD_ATTR RuntimeObject * ConfigurationSettings_GetConfig_m1015220656 (RuntimeObject * __this /* static, unused */, String_t* ___sectionName0, const RuntimeMethod* method);
 // System.Void System.Security.Cryptography.X509Certificates.X509CertificateCollection::.ctor()
-extern "C" IL2CPP_METHOD_ATTR void X509CertificateCollection__ctor_m147081211 (X509CertificateCollection_t3399372417 * __this, const RuntimeMethod* method);
+extern "C" IL2CPP_METHOD_ATTR void X509CertificateCollection__ctor_m1784029323 (X509CertificateCollection_t3399372417 * __this, const RuntimeMethod* method);
 // System.Void System.Net.HttpWebRequest::CheckRequestStarted()
 extern "C" IL2CPP_METHOD_ATTR void HttpWebRequest_CheckRequestStarted_m2585848005 (HttpWebRequest_t1669436515 * __this, const RuntimeMethod* method);
 // System.Net.ServicePoint System.Net.HttpWebRequest::GetServicePoint()
@@ -23567,7 +23567,7 @@ IL_01b8:
 				V_10 = L_59;
 				Uri_t100236324 * L_60 = V_10;
 				NullCheck(L_60);
-				String_t* L_61 = Uri_get_Host_m42857288(L_60, /*hidden argument*/NULL);
+				String_t* L_61 = Uri_get_Host_m255565830(L_60, /*hidden argument*/NULL);
 				IL2CPP_RUNTIME_CLASS_INIT(IPAddress_t241777590_il2cpp_TypeInfo_var);
 				bool L_62 = IPAddress_TryParse_m2320149543(NULL /*static, unused*/, L_61, (IPAddress_t241777590 **)(&V_11), /*hidden argument*/NULL);
 				if (!L_62)
@@ -28947,7 +28947,7 @@ extern "C" IL2CPP_METHOD_ATTR void Cookie__cctor_m3648156207 (RuntimeObject * __
 	{
 		CharU5BU5D_t3528271667* L_0 = (CharU5BU5D_t3528271667*)SZArrayNew(CharU5BU5D_t3528271667_il2cpp_TypeInfo_var, (uint32_t)7);
 		CharU5BU5D_t3528271667* L_1 = L_0;
-		RuntimeFieldHandle_t1871169219  L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t3057255363____U24U24fieldU2D1_0_FieldInfo_var) };
+		RuntimeFieldHandle_t1871169219  L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t3057255364____U24U24fieldU2D1_0_FieldInfo_var) };
 		RuntimeHelpers_InitializeArray_m3117905507(NULL /*static, unused*/, (RuntimeArray *)(RuntimeArray *)L_1, L_2, /*hidden argument*/NULL);
 		((Cookie_t993873397_StaticFields*)il2cpp_codegen_static_fields_for(Cookie_t993873397_il2cpp_TypeInfo_var))->set_reservedCharsName_14(L_1);
 		CharU5BU5D_t3528271667* L_3 = (CharU5BU5D_t3528271667*)SZArrayNew(CharU5BU5D_t3528271667_il2cpp_TypeInfo_var, (uint32_t)2);
@@ -29909,7 +29909,7 @@ IL_00ce:
 	{
 		Uri_t100236324 * L_29 = ___uri0;
 		NullCheck(L_29);
-		String_t* L_30 = Uri_get_Host_m42857288(L_29, /*hidden argument*/NULL);
+		String_t* L_30 = Uri_get_Host_m255565830(L_29, /*hidden argument*/NULL);
 		String_t* L_31 = __this->get_domain_3();
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		bool L_32 = String_op_Inequality_m215368492(NULL /*static, unused*/, L_30, L_31, /*hidden argument*/NULL);
@@ -31013,7 +31013,7 @@ IL_0031:
 		Cookie_t993873397 * L_12 = ___cookie1;
 		Uri_t100236324 * L_13 = ___uri0;
 		NullCheck(L_13);
-		String_t* L_14 = Uri_get_Host_m42857288(L_13, /*hidden argument*/NULL);
+		String_t* L_14 = Uri_get_Host_m255565830(L_13, /*hidden argument*/NULL);
 		NullCheck(L_12);
 		Cookie_set_Domain_m3100331118(L_12, L_14, /*hidden argument*/NULL);
 	}
@@ -31527,7 +31527,7 @@ IL_0041:
 			String_t* L_12 = V_3;
 			Uri_t100236324 * L_13 = ___uri0;
 			NullCheck(L_13);
-			String_t* L_14 = Uri_get_Host_m42857288(L_13, /*hidden argument*/NULL);
+			String_t* L_14 = Uri_get_Host_m255565830(L_13, /*hidden argument*/NULL);
 			Cookie_t993873397 * L_15 = V_1;
 			NullCheck(L_15);
 			bool L_16 = Cookie_get_ExactDomain_m2697288922(L_15, /*hidden argument*/NULL);
@@ -32350,7 +32350,7 @@ extern "C" IL2CPP_METHOD_ATTR bool DefaultCertificatePolicy_CheckValidationResul
 	int32_t V_0 = 0;
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(ServicePointManager_t170559685_il2cpp_TypeInfo_var);
-		RemoteCertificateValidationCallback_t3014364904 * L_0 = ServicePointManager_get_ServerCertificateValidationCallback_m984921647(NULL /*static, unused*/, /*hidden argument*/NULL);
+		RemoteCertificateValidationCallback_t3014364904 * L_0 = ServicePointManager_get_ServerCertificateValidationCallback_m2067275303(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if (!L_0)
 		{
 			goto IL_000c;
@@ -39533,7 +39533,7 @@ extern "C" IL2CPP_METHOD_ATTR bool FtpWebRequest_ChangeToSSLSocket_m896422621 (F
 		SslStream_t2700741536 * L_4 = V_0;
 		Uri_t100236324 * L_5 = __this->get_requestUri_6();
 		NullCheck(L_5);
-		String_t* L_6 = Uri_get_Host_m42857288(L_5, /*hidden argument*/NULL);
+		String_t* L_6 = Uri_get_Host_m255565830(L_5, /*hidden argument*/NULL);
 		NullCheck(L_4);
 		VirtActionInvoker4< String_t*, X509CertificateCollection_t3399372417 *, int32_t, bool >::Invoke(30 /* System.Void System.Net.Security.SslStream::AuthenticateAsClient(System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Security.Authentication.SslProtocols,System.Boolean) */, L_4, L_6, (X509CertificateCollection_t3399372417 *)NULL, ((int32_t)240), (bool)0);
 		Stream_t1273022909 ** L_7 = ___stream0;
@@ -39669,7 +39669,7 @@ extern "C" IL2CPP_METHOD_ATTR bool FtpWebRequest_U3CcallbackU3Em__3_m2932823206 
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(ServicePointManager_t170559685_il2cpp_TypeInfo_var);
-		RemoteCertificateValidationCallback_t3014364904 * L_0 = ServicePointManager_get_ServerCertificateValidationCallback_m984921647(NULL /*static, unused*/, /*hidden argument*/NULL);
+		RemoteCertificateValidationCallback_t3014364904 * L_0 = ServicePointManager_get_ServerCertificateValidationCallback_m2067275303(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if (!L_0)
 		{
 			goto IL_0019;
@@ -39677,13 +39677,13 @@ extern "C" IL2CPP_METHOD_ATTR bool FtpWebRequest_U3CcallbackU3Em__3_m2932823206 
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(ServicePointManager_t170559685_il2cpp_TypeInfo_var);
-		RemoteCertificateValidationCallback_t3014364904 * L_1 = ServicePointManager_get_ServerCertificateValidationCallback_m984921647(NULL /*static, unused*/, /*hidden argument*/NULL);
+		RemoteCertificateValidationCallback_t3014364904 * L_1 = ServicePointManager_get_ServerCertificateValidationCallback_m2067275303(NULL /*static, unused*/, /*hidden argument*/NULL);
 		RuntimeObject * L_2 = ___sender0;
 		X509Certificate_t713131622 * L_3 = ___certificate1;
 		X509Chain_t194917408 * L_4 = ___chain2;
 		int32_t L_5 = ___sslPolicyErrors3;
 		NullCheck(L_1);
-		bool L_6 = RemoteCertificateValidationCallback_Invoke_m727898444(L_1, L_2, L_3, L_4, L_5, /*hidden argument*/NULL);
+		bool L_6 = RemoteCertificateValidationCallback_Invoke_m3086073466(L_1, L_2, L_3, L_4, L_5, /*hidden argument*/NULL);
 		return L_6;
 	}
 
@@ -40442,7 +40442,7 @@ extern "C" IL2CPP_METHOD_ATTR void HttpWebRequest_System_Runtime_Serialization_I
 	}
 }
 // System.Uri System.Net.HttpWebRequest::get_Address()
-extern "C" IL2CPP_METHOD_ATTR Uri_t100236324 * HttpWebRequest_get_Address_m1609525404 (HttpWebRequest_t1669436515 * __this, const RuntimeMethod* method)
+extern "C" IL2CPP_METHOD_ATTR Uri_t100236324 * HttpWebRequest_get_Address_m2672661563 (HttpWebRequest_t1669436515 * __this, const RuntimeMethod* method)
 {
 	{
 		Uri_t100236324 * L_0 = __this->get_actualUri_7();
@@ -40567,7 +40567,7 @@ extern "C" IL2CPP_METHOD_ATTR X509CertificateCollection_t3399372417 * HttpWebReq
 	}
 	{
 		X509CertificateCollection_t3399372417 * L_1 = (X509CertificateCollection_t3399372417 *)il2cpp_codegen_object_new(X509CertificateCollection_t3399372417_il2cpp_TypeInfo_var);
-		X509CertificateCollection__ctor_m147081211(L_1, /*hidden argument*/NULL);
+		X509CertificateCollection__ctor_m1784029323(L_1, /*hidden argument*/NULL);
 		__this->set_certificates_11(L_1);
 	}
 
@@ -40679,7 +40679,7 @@ extern "C" IL2CPP_METHOD_ATTR bool HttpWebRequest_get_SendChunked_m3812850078 (H
 	}
 }
 // System.Net.ServicePoint System.Net.HttpWebRequest::get_ServicePoint()
-extern "C" IL2CPP_METHOD_ATTR ServicePoint_t2786966844 * HttpWebRequest_get_ServicePoint_m1080482337 (HttpWebRequest_t1669436515 * __this, const RuntimeMethod* method)
+extern "C" IL2CPP_METHOD_ATTR ServicePoint_t2786966844 * HttpWebRequest_get_ServicePoint_m3916606901 (HttpWebRequest_t1669436515 * __this, const RuntimeMethod* method)
 {
 	{
 		ServicePoint_t2786966844 * L_0 = HttpWebRequest_GetServicePoint_m2640244283(__this, /*hidden argument*/NULL);
@@ -41883,10 +41883,10 @@ IL_0145:
 	{
 		Uri_t100236324 * L_39 = __this->get_actualUri_7();
 		NullCheck(L_39);
-		String_t* L_40 = Uri_get_Host_m42857288(L_39, /*hidden argument*/NULL);
+		String_t* L_40 = Uri_get_Host_m255565830(L_39, /*hidden argument*/NULL);
 		Uri_t100236324 * L_41 = V_2;
 		NullCheck(L_41);
-		String_t* L_42 = Uri_get_Host_m42857288(L_41, /*hidden argument*/NULL);
+		String_t* L_42 = Uri_get_Host_m255565830(L_41, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		bool L_43 = String_op_Inequality_m215368492(NULL /*static, unused*/, L_40, L_42, /*hidden argument*/NULL);
 		G_B18_0 = G_B17_0;
@@ -42584,7 +42584,7 @@ IL_0022:
 		String_t* L_7 = Uri_get_Scheme_m1686732325(L_6, /*hidden argument*/NULL);
 		Uri_t100236324 * L_8 = __this->get_actualUri_7();
 		NullCheck(L_8);
-		String_t* L_9 = Uri_get_Host_m42857288(L_8, /*hidden argument*/NULL);
+		String_t* L_9 = Uri_get_Host_m255565830(L_8, /*hidden argument*/NULL);
 		Uri_t100236324 * L_10 = __this->get_actualUri_7();
 		NullCheck(L_10);
 		String_t* L_11 = Uri_get_PathAndQuery_m2396197970(L_10, /*hidden argument*/NULL);
@@ -42607,7 +42607,7 @@ IL_0063:
 		ObjectU5BU5D_t2843939325* L_17 = L_14;
 		Uri_t100236324 * L_18 = __this->get_actualUri_7();
 		NullCheck(L_18);
-		String_t* L_19 = Uri_get_Host_m42857288(L_18, /*hidden argument*/NULL);
+		String_t* L_19 = Uri_get_Host_m255565830(L_18, /*hidden argument*/NULL);
 		NullCheck(L_17);
 		ArrayElementTypeCheck (L_17, L_19);
 		(L_17)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject *)L_19);
@@ -45708,7 +45708,7 @@ IL_02a0:
 		Cookie_t993873397 * L_87 = V_2;
 		Uri_t100236324 * L_88 = __this->get_uri_1();
 		NullCheck(L_88);
-		String_t* L_89 = Uri_get_Host_m42857288(L_88, /*hidden argument*/NULL);
+		String_t* L_89 = Uri_get_Host_m255565830(L_88, /*hidden argument*/NULL);
 		NullCheck(L_87);
 		Cookie_set_Domain_m3100331118(L_87, L_89, /*hidden argument*/NULL);
 	}

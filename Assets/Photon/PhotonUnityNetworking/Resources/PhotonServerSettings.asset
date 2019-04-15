@@ -39,5 +39,6 @@ MonoBehaviour:
   - RPC_StartFirstMatchClient
   - RPC_StartNextMatchClient
   - RPC_YouDie
+  - RPC_SetupNextMatch
   DisableAutoOpenWizard: 1
   ShowSettings: 0

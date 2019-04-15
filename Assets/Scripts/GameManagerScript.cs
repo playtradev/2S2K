@@ -9,6 +9,7 @@ public class GameManagerScript : MonoBehaviourPun {
 
 	public static GameManagerScript Instance;
 
+	public int MatchNumber = 0;
 
 	public GameManagerStatusType GMStatus = GameManagerStatusType.Intro;
 
@@ -22,12 +23,10 @@ public class GameManagerScript : MonoBehaviourPun {
 
 	private bool areCharInstantiated = false;
 
-	private void Start()
+	private void Awake()
 	{
 		Instance = this;
 	}
-
-
 	private void Update()
 	{
 		if(PlayersContainer.Instance != null && !areCharInstantiated)
@@ -42,8 +41,6 @@ public class GameManagerScript : MonoBehaviourPun {
 
 		}
 	}
-
-
 	public void CharInstantiator(PlayerClass pc)
 	{
 		GameObject go = PhotonNetwork.Instantiate(Character.name, CharPositions[pc.Pos].position, CharPositions[pc.Pos].rotation);
@@ -53,38 +50,30 @@ public class GameManagerScript : MonoBehaviourPun {
 		ListOfPayersAndChars.Add(pc.CurrentPlayer.ActorNumber, go);
 		this.photonView.RPC("RPC_SetSkin", RpcTarget.All, go.GetComponent<PhotonView>().ViewID, pc.SkinID, pc.Pos, pc.CurrentPlayer.ActorNumber, pc.Bullets);
 	}
-
     public void IShootTo(int actorNum)
 	{
 		this.photonView.RPC("RPC_Shoot", RpcTarget.MasterClient, actorNum, 1);
 	}
-
-
 	public void SetShoot(int actorNum, int damage)
 	{
 		Debug.Log("shoot");
 		PlayerClass enemy = PlayersContainer.Instance.PlayersList.Where(r => r.CurrentPlayer.ActorNumber == actorNum).First();
 		enemy.HP = enemy.HP - damage;
 	}
-
     public void StartMatch()
 	{
+		MatchNumber++;
 		Invoke("EndMatch", 2);
 		GMStatus = GameManagerStatusType.Match;
 	}
-
-
     public void EndMatch()
 	{
 		GMStatus = GameManagerStatusType.EndMatch;
 		Invoke("CreateRank", 1);
 	}
-
-
 	public void CreateRank()
 	{
 		string res = "";
-
 		foreach (PlayerClass item in PlayersContainer.Instance.PlayersList.OrderByDescending(r=> r.HP))
         {
 			res += item.CurrentPlayer.NickName + "    " + item.HP + Environment.NewLine;
@@ -93,19 +82,16 @@ public class GameManagerScript : MonoBehaviourPun {
 				this.photonView.RPC("RPC_YouDie", RpcTarget.All, item.CurrentPlayer.ActorNumber);
 			}
         }
-
 		Debug.Log(res);
-        
 		this.photonView.RPC("RPC_WriteRank", RpcTarget.All, res);
-	}
+		this.photonView.RPC("RPC_SetupNextMatch", RpcTarget.All, res);
 
+	}
     public void SetupNextMatch()
 	{
 		StartCoroutine(GameUIManager.Instance.StartNextMatch(PhotonNetwork.Time + 10));
 		this.photonView.RPC("RPC_StartNextMatchClient", RpcTarget.Others, (float)(PhotonNetwork.Time + 10));
 	}
-
-
 	public void YouDie(int actorNum)
 	{
 		if(ListOfPayersAndChars.Count > 0) 

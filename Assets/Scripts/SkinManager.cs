@@ -7,32 +7,51 @@ using UnityEngine.EventSystems;
 public class SkinManager : MonoBehaviour {
 
 	public static SkinManager Instance;
-	public List<Material> ListOfSkin = new List<Material>();
+	public List<Material> ListOfSkins = new List<Material>();
+	public List<Transform> ListOfHats = new List<Transform>();
+	public List<Transform> ListOfWeapons = new List<Transform>();
+	public List<Sprite> ListOfHatsUI = new List<Sprite>();
+	public List<Sprite> ListOfSkinsUI = new List<Sprite>();
+	public List<Sprite> ListOfWeaponsUI = new List<Sprite>();
 	public List<ScreenTouches> TouchOnScreen = new List<ScreenTouches>();
 	public Vector2 StartMousePosition = new Vector2(-1,-1);
 
 
 	// Use this for initialization
-	void Start () {
+	void Awake () {
 		Instance = this;
 	}
 	
 	public Material GetMaterial(int iD)
 	{
-		return ListOfSkin[iD];
+		return ListOfSkins[iD];
 	}
 
-	public List<Material> GetMaterials(List<int> iDs)
+	public List<Material> GetSkinMaterials(List<int> iDs)
     {
 
 		List<Material> res = new List<Material>();
         
 		foreach (int id in iDs)
 		{
-			res.Add(ListOfSkin[id]);
+			res.Add(ListOfSkins[id]);
 		}
 		return res;
     }
+
+	public Sprite GetSkinUI(int iD)
+    {
+		return ListOfSkinsUI[iD];
+    }
+	public Sprite GetHatUI(int iD)
+    {
+		return ListOfHatsUI[iD];
+    }
+	public Sprite GetWeaponUI(int iD)
+    {
+		return ListOfWeaponsUI[iD];
+    }
+
 
 	private void Update()
 	{
@@ -40,25 +59,37 @@ public class SkinManager : MonoBehaviour {
 		{
 			List<ScreenTouches> ListST = new List<ScreenTouches>();
 			List<Touch> touches = Input.touches.ToList();
+			bool NextPrev = false;
 			foreach (Touch touch in touches.Where(r=> r.phase == TouchPhase.Ended).ToList())
 			{
 				Debug.Log(" touch ID in update   " + touch.fingerId);
-
-				ListST.Add(TouchOnScreen.Where(r => r.TouchId == touch.fingerId).First());
+				ScreenTouches st = TouchOnScreen.Where(r => r.TouchId == touch.fingerId).First();
+				ListST.Add(st);
 
 				Vector2 StartPos = ListST.Last().StartPos;
 				if(StartPos.x - touch.position.x < 100)
 				{
 					Debug.Log("previous");
-					UISkinManager.Instance.SetColorToChar(GetNExtSkin(false));
+					NextPrev = false;
 				}
 				else if (StartPos.x - touch.position.x > 100)
                 {
                     Debug.Log("next");
-					UISkinManager.Instance.SetColorToChar(GetNExtSkin(true));
+					NextPrev = true;
                 }
 
-
+				switch (st.CustomizationType)
+				{
+					case CustomizationObjectType.Skin:
+						UISkinManager.Instance.SetColorToSkin(GetNextSkinSelection(NextPrev));
+						break;
+					case CustomizationObjectType.Hat:
+						UISkinManager.Instance.SetColorToHat(GetNextHatSelection(NextPrev));
+                        break;
+					case CustomizationObjectType.Weapon:
+						UISkinManager.Instance.SetColorToWeapon(GetNextWeaponSelection(NextPrev));
+                        break;
+				}
 			}
 			Debug.Log(ListST.Count + "   elem in the list");
 			foreach (ScreenTouches item in ListST)
@@ -72,48 +103,114 @@ public class SkinManager : MonoBehaviour {
 		}
 		else if (Input.GetMouseButtonUp(0))
         {
+			bool NextPrev = false;
 			if (TouchOnScreen[0].StartPos.x - Input.mousePosition.x < 100)
             {
 				Debug.Log("previous  " + TouchOnScreen[0].CustomizationType);
-				UISkinManager.Instance.SetColorToChar(GetNExtSkin(false));
+				NextPrev = false;
             }
 			else if (TouchOnScreen[0].StartPos.x - Input.mousePosition.x > 100)
             {
 				Debug.Log("next   " + TouchOnScreen[0].CustomizationType);
-				UISkinManager.Instance.SetColorToChar(GetNExtSkin(true));
+				NextPrev = true;
+            }
+			switch (TouchOnScreen[0].CustomizationType)
+            {
+                case CustomizationObjectType.Skin:
+					Launcher.Instance.SkinId = GetNextSkinSelection(NextPrev);
+					UISkinManager.Instance.SetColorToSkin(Launcher.Instance.SkinId);
+                    break;
+                case CustomizationObjectType.Hat:
+					Launcher.Instance.HatId = GetNextHatSelection(NextPrev);
+					UISkinManager.Instance.SetColorToHat(Launcher.Instance.HatId);
+                    break;
+                case CustomizationObjectType.Weapon:
+					Launcher.Instance.WeaponId = GetNextWeaponSelection(NextPrev);
+					UISkinManager.Instance.SetColorToWeapon(Launcher.Instance.WeaponId);
+                    break;
             }
 
 			TouchOnScreen.RemoveAt(0);
         }
 	}
 
-    public int GetNExtSkin(bool NextPrev)
+	public int GetNextSkinSelection(bool NextPrev)
 	{
 		if(NextPrev)
 		{
-			if(Launcher.Instance.SkinId == ListOfSkin.Count - 1)
+			if(Launcher.Instance.SkinId == ListOfSkins.Count - 1)
 			{
 				return 0;
 			}
 			else
 			{
-				Launcher.Instance.SkinId++;
-				return Launcher.Instance.SkinId;
+				return Launcher.Instance.SkinId + 1;
 			}
 		}
 		else
 		{
 			if (Launcher.Instance.SkinId == 0)
             {
-				return ListOfSkin.Count - 1;
+				return ListOfSkins.Count - 1;
             }
             else
             {
-				Launcher.Instance.SkinId--;
-				return Launcher.Instance.SkinId;
+				return Launcher.Instance.SkinId - 1;
             }
 		}
 	}
+
+	public int GetNextHatSelection(bool NextPrev)
+    {
+        if (NextPrev)
+        {
+			if (Launcher.Instance.HatId == ListOfHats.Count - 1)
+            {
+                return 0;
+            }
+            else
+            {
+				return Launcher.Instance.HatId + 1;
+            }
+        }
+        else
+        {
+			if (Launcher.Instance.HatId == 0)
+            {
+				return ListOfHats.Count - 1;
+            }
+            else
+            {
+				return Launcher.Instance.HatId - 1;
+            }
+        }
+    }
+
+	public int GetNextWeaponSelection(bool NextPrev)
+    {
+        if (NextPrev)
+        {
+			if (Launcher.Instance.WeaponId == ListOfWeapons.Count - 1)
+            {
+                return 0;
+            }
+            else
+            {
+				return Launcher.Instance.WeaponId + 1;
+            }
+        }
+        else
+        {
+			if (Launcher.Instance.WeaponId == 0)
+            {
+				return ListOfWeapons.Count - 1;
+            }
+            else
+            {
+				return Launcher.Instance.WeaponId - 1;
+            }
+        }
+    }
 
 	public void CustomizationStart(BaseEventData baseEventData)
 	{

@@ -492,6 +492,7 @@ extern const uint32_t TrackedReference_Equals_m1342350606_MetadataUsageId;
 extern const uint32_t TrackedReference_op_Equality_m3702354772_MetadataUsageId;
 extern const uint32_t Transform_GetEnumerator_m2717073726_MetadataUsageId;
 extern const uint32_t Transform_LookAt_m3649447396_MetadataUsageId;
+extern const uint32_t Transform_RotateAround_m2651195670_MetadataUsageId;
 extern const uint32_t Transform_Rotate_m1886816857_MetadataUsageId;
 extern const uint32_t Transform_get_forward_m747522392_MetadataUsageId;
 extern const uint32_t Transform_set_forward_m1840797198_MetadataUsageId;
@@ -1743,6 +1744,26 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // CUSTOMYIELDINSTRUCTION_T1895667560_H
+#ifndef DATAUTILITY_T2196215967_H
+#define DATAUTILITY_T2196215967_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Sprites.DataUtility
+struct  DataUtility_t2196215967  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // DATAUTILITY_T2196215967_H
 #ifndef STACKTRACEUTILITY_T3465565809_H
 #define STACKTRACEUTILITY_T3465565809_H
 #ifdef __clang__
@@ -4577,6 +4598,35 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // SPACE_T654135784_H
+#ifndef SPRITEPACKINGMODE_T1341680400_H
+#define SPRITEPACKINGMODE_T1341680400_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.SpritePackingMode
+struct  SpritePackingMode_t1341680400 
+{
+public:
+	// System.Int32 UnityEngine.SpritePackingMode::value__
+	int32_t ___value___1;
+
+public:
+	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(SpritePackingMode_t1341680400, ___value___1)); }
+	inline int32_t get_value___1() const { return ___value___1; }
+	inline int32_t* get_address_of_value___1() { return &___value___1; }
+	inline void set_value___1(int32_t value)
+	{
+		___value___1 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // SPRITEPACKINGMODE_T1341680400_H
 #ifndef TEXTAREAATTRIBUTE_T3326046611_H
 #define TEXTAREAATTRIBUTE_T3326046611_H
 #ifdef __clang__
@@ -6844,6 +6894,26 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // UNHANDLEDEXCEPTIONEVENTHANDLER_T3101989324_H
+#ifndef RENDERER_T2627027031_H
+#define RENDERER_T2627027031_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Renderer
+struct  Renderer_t2627027031  : public Component_t1923634451
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // RENDERER_T2627027031_H
 #ifndef SYSTEMCLOCK_T1201361285_H
 #define SYSTEMCLOCK_T1201361285_H
 #ifdef __clang__
@@ -7017,6 +7087,26 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // RECTTRANSFORM_T3704657025_H
+#ifndef SPRITERENDERER_T3235626157_H
+#define SPRITERENDERER_T3235626157_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.SpriteRenderer
+struct  SpriteRenderer_t3235626157  : public Renderer_t2627027031
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // SPRITERENDERER_T3235626157_H
 // System.String[]
 struct StringU5BU5D_t1281789340  : public RuntimeArray
 {
@@ -7180,6 +7270,14 @@ extern "C" IL2CPP_METHOD_ATTR WorkRequest_t1354518612  Queue_1_Dequeue_m97996797
 // !0 System.Func`1<System.Boolean>::Invoke()
 extern "C" IL2CPP_METHOD_ATTR bool Func_1_Invoke_m370346740_gshared (Func_1_t3822001908 * __this, const RuntimeMethod* method);
 
+// UnityEngine.Vector4 UnityEngine.Sprite::GetInnerUVs()
+extern "C" IL2CPP_METHOD_ATTR Vector4_t3319028937  Sprite_GetInnerUVs_m3161811504 (Sprite_t280657092 * __this, const RuntimeMethod* method);
+// UnityEngine.Vector4 UnityEngine.Sprite::GetOuterUVs()
+extern "C" IL2CPP_METHOD_ATTR Vector4_t3319028937  Sprite_GetOuterUVs_m716993212 (Sprite_t280657092 * __this, const RuntimeMethod* method);
+// UnityEngine.Vector4 UnityEngine.Sprite::GetPadding()
+extern "C" IL2CPP_METHOD_ATTR Vector4_t3319028937  Sprite_GetPadding_m3912085217 (Sprite_t280657092 * __this, const RuntimeMethod* method);
+// UnityEngine.Vector4 UnityEngine.Sprite::get_border()
+extern "C" IL2CPP_METHOD_ATTR Vector4_t3319028937  Sprite_get_border_m2985609076 (Sprite_t280657092 * __this, const RuntimeMethod* method);
 // System.Boolean System.String::IsNullOrEmpty(System.String)
 extern "C" IL2CPP_METHOD_ATTR bool String_IsNullOrEmpty_m2969720369 (RuntimeObject * __this /* static, unused */, String_t* p0, const RuntimeMethod* method);
 // System.String System.String::Replace(System.String,System.String)
@@ -7406,6 +7504,20 @@ extern "C" IL2CPP_METHOD_ATTR Quaternion_t2301928331  Quaternion_Inverse_m131157
 extern "C" IL2CPP_METHOD_ATTR void Vector3__ctor_m3353183577 (Vector3_t3722313464 * __this, float ___x0, float ___y1, float ___z2, const RuntimeMethod* method);
 // System.Void UnityEngine.Transform::Rotate(UnityEngine.Vector3,UnityEngine.Space)
 extern "C" IL2CPP_METHOD_ATTR void Transform_Rotate_m1886816857 (Transform_t3600365921 * __this, Vector3_t3722313464  ___eulers0, int32_t ___relativeTo1, const RuntimeMethod* method);
+// System.Void UnityEngine.Transform::RotateAroundInternal_Injected(UnityEngine.Vector3&,System.Single)
+extern "C" IL2CPP_METHOD_ATTR void Transform_RotateAroundInternal_Injected_m3837681813 (Transform_t3600365921 * __this, Vector3_t3722313464 * ___axis0, float ___angle1, const RuntimeMethod* method);
+// UnityEngine.Vector3 UnityEngine.Transform::get_position()
+extern "C" IL2CPP_METHOD_ATTR Vector3_t3722313464  Transform_get_position_m36019626 (Transform_t3600365921 * __this, const RuntimeMethod* method);
+// UnityEngine.Quaternion UnityEngine.Quaternion::AngleAxis(System.Single,UnityEngine.Vector3)
+extern "C" IL2CPP_METHOD_ATTR Quaternion_t2301928331  Quaternion_AngleAxis_m1767165696 (RuntimeObject * __this /* static, unused */, float ___angle0, Vector3_t3722313464  ___axis1, const RuntimeMethod* method);
+// UnityEngine.Vector3 UnityEngine.Vector3::op_Subtraction(UnityEngine.Vector3,UnityEngine.Vector3)
+extern "C" IL2CPP_METHOD_ATTR Vector3_t3722313464  Vector3_op_Subtraction_m3073674971 (RuntimeObject * __this /* static, unused */, Vector3_t3722313464  ___a0, Vector3_t3722313464  ___b1, const RuntimeMethod* method);
+// UnityEngine.Vector3 UnityEngine.Vector3::op_Addition(UnityEngine.Vector3,UnityEngine.Vector3)
+extern "C" IL2CPP_METHOD_ATTR Vector3_t3722313464  Vector3_op_Addition_m779775034 (RuntimeObject * __this /* static, unused */, Vector3_t3722313464  ___a0, Vector3_t3722313464  ___b1, const RuntimeMethod* method);
+// System.Void UnityEngine.Transform::set_position(UnityEngine.Vector3)
+extern "C" IL2CPP_METHOD_ATTR void Transform_set_position_m3387557959 (Transform_t3600365921 * __this, Vector3_t3722313464  ___value0, const RuntimeMethod* method);
+// System.Void UnityEngine.Transform::RotateAroundInternal(UnityEngine.Vector3,System.Single)
+extern "C" IL2CPP_METHOD_ATTR void Transform_RotateAroundInternal_m1612579057 (Transform_t3600365921 * __this, Vector3_t3722313464  ___axis0, float ___angle1, const RuntimeMethod* method);
 // UnityEngine.Vector3 UnityEngine.Vector3::get_up()
 extern "C" IL2CPP_METHOD_ATTR Vector3_t3722313464  Vector3_get_up_m3584168373 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method);
 // System.Void UnityEngine.Transform::Internal_LookAt(UnityEngine.Vector3,UnityEngine.Vector3)
@@ -7564,16 +7676,12 @@ extern "C" IL2CPP_METHOD_ATTR bool Vector2_op_Equality_m2303255133 (RuntimeObjec
 extern "C" IL2CPP_METHOD_ATTR void Vector3__ctor_m1719387948 (Vector3_t3722313464 * __this, float ___x0, float ___y1, const RuntimeMethod* method);
 // System.Single UnityEngine.Mathf::Clamp01(System.Single)
 extern "C" IL2CPP_METHOD_ATTR float Mathf_Clamp01_m56433566 (RuntimeObject * __this /* static, unused */, float ___value0, const RuntimeMethod* method);
-// UnityEngine.Vector3 UnityEngine.Vector3::op_Subtraction(UnityEngine.Vector3,UnityEngine.Vector3)
-extern "C" IL2CPP_METHOD_ATTR Vector3_t3722313464  Vector3_op_Subtraction_m3073674971 (RuntimeObject * __this /* static, unused */, Vector3_t3722313464  ___a0, Vector3_t3722313464  ___b1, const RuntimeMethod* method);
 // System.Single UnityEngine.Vector3::get_magnitude()
 extern "C" IL2CPP_METHOD_ATTR float Vector3_get_magnitude_m27958459 (Vector3_t3722313464 * __this, const RuntimeMethod* method);
 // UnityEngine.Vector3 UnityEngine.Vector3::op_Division(UnityEngine.Vector3,System.Single)
 extern "C" IL2CPP_METHOD_ATTR Vector3_t3722313464  Vector3_op_Division_m510815599 (RuntimeObject * __this /* static, unused */, Vector3_t3722313464  ___a0, float ___d1, const RuntimeMethod* method);
 // UnityEngine.Vector3 UnityEngine.Vector3::op_Multiply(UnityEngine.Vector3,System.Single)
 extern "C" IL2CPP_METHOD_ATTR Vector3_t3722313464  Vector3_op_Multiply_m3376773913 (RuntimeObject * __this /* static, unused */, Vector3_t3722313464  ___a0, float ___d1, const RuntimeMethod* method);
-// UnityEngine.Vector3 UnityEngine.Vector3::op_Addition(UnityEngine.Vector3,UnityEngine.Vector3)
-extern "C" IL2CPP_METHOD_ATTR Vector3_t3722313464  Vector3_op_Addition_m779775034 (RuntimeObject * __this /* static, unused */, Vector3_t3722313464  ___a0, Vector3_t3722313464  ___b1, const RuntimeMethod* method);
 // System.Single UnityEngine.Vector3::get_Item(System.Int32)
 extern "C" IL2CPP_METHOD_ATTR float Vector3_get_Item_m668685504 (Vector3_t3722313464 * __this, int32_t ___index0, const RuntimeMethod* method);
 // System.Void UnityEngine.Vector3::set_Item(System.Int32,System.Single)
@@ -7655,6 +7763,136 @@ extern "C" IL2CPP_METHOD_ATTR MethodInfo_t * Delegate_get_Method_m3071622864 (De
 extern "C" IL2CPP_METHOD_ATTR Delegate_t1188392813 * Delegate_CreateDelegate_m2396489936 (RuntimeObject * __this /* static, unused */, Type_t * p0, MethodInfo_t * p1, const RuntimeMethod* method);
 // System.Void UnityEngineInternal.TypeInferenceRuleAttribute::.ctor(System.String)
 extern "C" IL2CPP_METHOD_ATTR void TypeInferenceRuleAttribute__ctor_m2736695831 (TypeInferenceRuleAttribute_t254868554 * __this, String_t* ___rule0, const RuntimeMethod* method);
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// UnityEngine.Vector4 UnityEngine.Sprites.DataUtility::GetInnerUV(UnityEngine.Sprite)
+extern "C" IL2CPP_METHOD_ATTR Vector4_t3319028937  DataUtility_GetInnerUV_m2896140645 (RuntimeObject * __this /* static, unused */, Sprite_t280657092 * ___sprite0, const RuntimeMethod* method)
+{
+	Vector4_t3319028937  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Sprite_t280657092 * L_0 = ___sprite0;
+		NullCheck(L_0);
+		Vector4_t3319028937  L_1 = Sprite_GetInnerUVs_m3161811504(L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		Vector4_t3319028937  L_2 = V_0;
+		return L_2;
+	}
+}
+// UnityEngine.Vector4 UnityEngine.Sprites.DataUtility::GetOuterUV(UnityEngine.Sprite)
+extern "C" IL2CPP_METHOD_ATTR Vector4_t3319028937  DataUtility_GetOuterUV_m2509686757 (RuntimeObject * __this /* static, unused */, Sprite_t280657092 * ___sprite0, const RuntimeMethod* method)
+{
+	Vector4_t3319028937  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Sprite_t280657092 * L_0 = ___sprite0;
+		NullCheck(L_0);
+		Vector4_t3319028937  L_1 = Sprite_GetOuterUVs_m716993212(L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		Vector4_t3319028937  L_2 = V_0;
+		return L_2;
+	}
+}
+// UnityEngine.Vector4 UnityEngine.Sprites.DataUtility::GetPadding(UnityEngine.Sprite)
+extern "C" IL2CPP_METHOD_ATTR Vector4_t3319028937  DataUtility_GetPadding_m1385423541 (RuntimeObject * __this /* static, unused */, Sprite_t280657092 * ___sprite0, const RuntimeMethod* method)
+{
+	Vector4_t3319028937  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Sprite_t280657092 * L_0 = ___sprite0;
+		NullCheck(L_0);
+		Vector4_t3319028937  L_1 = Sprite_GetPadding_m3912085217(L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		Vector4_t3319028937  L_2 = V_0;
+		return L_2;
+	}
+}
+// UnityEngine.Vector2 UnityEngine.Sprites.DataUtility::GetMinSize(UnityEngine.Sprite)
+extern "C" IL2CPP_METHOD_ATTR Vector2_t2156229523  DataUtility_GetMinSize_m843062179 (RuntimeObject * __this /* static, unused */, Sprite_t280657092 * ___sprite0, const RuntimeMethod* method)
+{
+	Vector2_t2156229523  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Vector4_t3319028937  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Vector4_t3319028937  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	Vector4_t3319028937  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	Vector4_t3319028937  V_4;
+	memset(&V_4, 0, sizeof(V_4));
+	Vector2_t2156229523  V_5;
+	memset(&V_5, 0, sizeof(V_5));
+	{
+		Sprite_t280657092 * L_0 = ___sprite0;
+		NullCheck(L_0);
+		Vector4_t3319028937  L_1 = Sprite_get_border_m2985609076(L_0, /*hidden argument*/NULL);
+		V_1 = L_1;
+		float L_2 = (&V_1)->get_x_1();
+		Sprite_t280657092 * L_3 = ___sprite0;
+		NullCheck(L_3);
+		Vector4_t3319028937  L_4 = Sprite_get_border_m2985609076(L_3, /*hidden argument*/NULL);
+		V_2 = L_4;
+		float L_5 = (&V_2)->get_z_3();
+		(&V_0)->set_x_0(((float)il2cpp_codegen_add((float)L_2, (float)L_5)));
+		Sprite_t280657092 * L_6 = ___sprite0;
+		NullCheck(L_6);
+		Vector4_t3319028937  L_7 = Sprite_get_border_m2985609076(L_6, /*hidden argument*/NULL);
+		V_3 = L_7;
+		float L_8 = (&V_3)->get_y_2();
+		Sprite_t280657092 * L_9 = ___sprite0;
+		NullCheck(L_9);
+		Vector4_t3319028937  L_10 = Sprite_get_border_m2985609076(L_9, /*hidden argument*/NULL);
+		V_4 = L_10;
+		float L_11 = (&V_4)->get_w_4();
+		(&V_0)->set_y_1(((float)il2cpp_codegen_add((float)L_8, (float)L_11)));
+		Vector2_t2156229523  L_12 = V_0;
+		V_5 = L_12;
+		goto IL_0052;
+	}
+
+IL_0052:
+	{
+		Vector2_t2156229523  L_13 = V_5;
+		return L_13;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -11024,6 +11262,59 @@ extern "C" IL2CPP_METHOD_ATTR void Transform_Rotate_m3172098886 (Transform_t3600
 		return;
 	}
 }
+// System.Void UnityEngine.Transform::RotateAroundInternal(UnityEngine.Vector3,System.Single)
+extern "C" IL2CPP_METHOD_ATTR void Transform_RotateAroundInternal_m1612579057 (Transform_t3600365921 * __this, Vector3_t3722313464  ___axis0, float ___angle1, const RuntimeMethod* method)
+{
+	{
+		float L_0 = ___angle1;
+		Transform_RotateAroundInternal_Injected_m3837681813(__this, (Vector3_t3722313464 *)(&___axis0), L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.Transform::RotateAround(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+extern "C" IL2CPP_METHOD_ATTR void Transform_RotateAround_m2651195670 (Transform_t3600365921 * __this, Vector3_t3722313464  ___point0, Vector3_t3722313464  ___axis1, float ___angle2, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Transform_RotateAround_m2651195670_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t3722313464  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Quaternion_t2301928331  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Vector3_t3722313464  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	{
+		Vector3_t3722313464  L_0 = Transform_get_position_m36019626(__this, /*hidden argument*/NULL);
+		V_0 = L_0;
+		float L_1 = ___angle2;
+		Vector3_t3722313464  L_2 = ___axis1;
+		IL2CPP_RUNTIME_CLASS_INIT(Quaternion_t2301928331_il2cpp_TypeInfo_var);
+		Quaternion_t2301928331  L_3 = Quaternion_AngleAxis_m1767165696(NULL /*static, unused*/, L_1, L_2, /*hidden argument*/NULL);
+		V_1 = L_3;
+		Vector3_t3722313464  L_4 = V_0;
+		Vector3_t3722313464  L_5 = ___point0;
+		IL2CPP_RUNTIME_CLASS_INIT(Vector3_t3722313464_il2cpp_TypeInfo_var);
+		Vector3_t3722313464  L_6 = Vector3_op_Subtraction_m3073674971(NULL /*static, unused*/, L_4, L_5, /*hidden argument*/NULL);
+		V_2 = L_6;
+		Quaternion_t2301928331  L_7 = V_1;
+		Vector3_t3722313464  L_8 = V_2;
+		Vector3_t3722313464  L_9 = Quaternion_op_Multiply_m2607404835(NULL /*static, unused*/, L_7, L_8, /*hidden argument*/NULL);
+		V_2 = L_9;
+		Vector3_t3722313464  L_10 = ___point0;
+		Vector3_t3722313464  L_11 = V_2;
+		Vector3_t3722313464  L_12 = Vector3_op_Addition_m779775034(NULL /*static, unused*/, L_10, L_11, /*hidden argument*/NULL);
+		V_0 = L_12;
+		Vector3_t3722313464  L_13 = V_0;
+		Transform_set_position_m3387557959(__this, L_13, /*hidden argument*/NULL);
+		Vector3_t3722313464  L_14 = ___axis1;
+		float L_15 = ___angle2;
+		Transform_RotateAroundInternal_m1612579057(__this, L_14, ((float)il2cpp_codegen_multiply((float)L_15, (float)(0.0174532924f))), /*hidden argument*/NULL);
+		return;
+	}
+}
 // System.Void UnityEngine.Transform::LookAt(UnityEngine.Vector3)
 extern "C" IL2CPP_METHOD_ATTR void Transform_LookAt_m3649447396 (Transform_t3600365921 * __this, Vector3_t3722313464  ___worldPosition0, const RuntimeMethod* method)
 {
@@ -11289,6 +11580,15 @@ extern "C" IL2CPP_METHOD_ATTR void Transform_get_localToWorldMatrix_Injected_m14
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (Transform_get_localToWorldMatrix_Injected_m1424530041_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Transform::get_localToWorldMatrix_Injected(UnityEngine.Matrix4x4&)");
 	_il2cpp_icall_func(__this, ___ret0);
+}
+// System.Void UnityEngine.Transform::RotateAroundInternal_Injected(UnityEngine.Vector3&,System.Single)
+extern "C" IL2CPP_METHOD_ATTR void Transform_RotateAroundInternal_Injected_m3837681813 (Transform_t3600365921 * __this, Vector3_t3722313464 * ___axis0, float ___angle1, const RuntimeMethod* method)
+{
+	typedef void (*Transform_RotateAroundInternal_Injected_m3837681813_ftn) (Transform_t3600365921 *, Vector3_t3722313464 *, float);
+	static Transform_RotateAroundInternal_Injected_m3837681813_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Transform_RotateAroundInternal_Injected_m3837681813_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Transform::RotateAroundInternal_Injected(UnityEngine.Vector3&,System.Single)");
+	_il2cpp_icall_func(__this, ___axis0, ___angle1);
 }
 // System.Void UnityEngine.Transform::Internal_LookAt_Injected(UnityEngine.Vector3&,UnityEngine.Vector3&)
 extern "C" IL2CPP_METHOD_ATTR void Transform_Internal_LookAt_Injected_m3809555048 (Transform_t3600365921 * __this, Vector3_t3722313464 * ___worldPosition0, Vector3_t3722313464 * ___worldUp1, const RuntimeMethod* method)
